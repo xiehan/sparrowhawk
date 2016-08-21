@@ -155,21 +155,34 @@
     "이다": {
         "display": "이다",
         "type": "verb",
-        "subtype": "action",
+        "subtype": "status",
         "regular": true,
+        "alternateType": "adjective",
         "level": 1,
         "definition": "to be",
         "commonConjugation": "이에요/예요"
     },
+    "아니다": {
+        "display": "아니다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to not be",
+        "commonConjugation": "아니에요"
+    },
     "안": {
         "display": "안",
         "type": "adverb",
+        "alternateType": "interjection",
         "level": 1,
         "definition": "not"
     },
     "네": {
         "display": "네",
         "type": "adverb",
+        "alternateType": "interjection",
         "level": 1,
         "definition": "yes"
     },
@@ -296,7 +309,7 @@
     "있다": {
         "display": "있다",
         "type": "verb",
-        "subtype": "status",
+        "subtype": "action",
         "regular": true,
         "level": 1,
         "definition": "to exist, to have",
@@ -305,7 +318,7 @@
     "없다": {
         "display": "없다",
         "type": "verb",
-        "subtype": "status",
+        "subtype": "action",
         "regular": true,
         "level": 1,
         "definition": "to not exist, to not have",
@@ -670,7 +683,7 @@
         "regular": true,
         "alternateType": "adjective",
         "level": 1,
-        "definition": "to be many of, to be a lot of",
+        "definition": "to be many, to be a lot",
         "commonConjugation": "	많아요"
     },
     "많이": {
@@ -1108,15 +1121,6 @@
         "alternateType": "adverb",
         "level": 1,
         "definition": "daytime"
-    },
-    "아니다": {
-        "display": "아니다",
-        "type": "verb",
-        "subtype": "action",
-        "regular": true,
-        "level": 1,
-        "definition": "to not be",
-        "commonConjugation": "아니에요"
     },
     "배2": {
         "display": "배",
