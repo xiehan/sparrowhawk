@@ -2498,6 +2498,20 @@
         "definition": "to see the sights, to look around",
         "commonConjugation": "구경해요"
     },
+    "체육관": {
+        "display": "체육관",
+        "type": "noun",
+        "level": 2,
+        "definition": "gym",
+        "hanja": "體育館"
+    },
+    "위치": {
+        "display": "위치",
+        "type": "noun",
+        "level": 2,
+        "definition": "location",
+        "hanja": "位置"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -3518,6 +3532,89 @@
         "type": "adverb",
         "level": 3,
         "definition": "again"
+    },
+    "하숙집": {
+        "display": "하숙집",
+        "type": "noun",
+        "level": 3,
+        "definition": "boarding house"
+    },
+    "광고": {
+        "display": "광고",
+        "type": "noun",
+        "level": 3,
+        "definition": "advertisement",
+        "hanja": "廣告"
+    },
+    "발음": {
+        "display": "발음",
+        "type": "noun",
+        "level": 3,
+        "definition": "pronunciation",
+        "hanja": "發音"
+    },
+    "가격": {
+        "display": "가격",
+        "type": "noun",
+        "level": 3,
+        "definition": "price",
+        "hanja": "價格"
+    },
+    "이사하다": {
+        "display": "이사하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to move (houses)",
+        "hanja": "移徙하다",
+        "commonConjugation": "이사해요"
+    },
+    "마음에들다": {
+        "display": "마음에 들다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to like something/someone (lit. to enter one's heart)",
+        "commonConjugation": "마음에 들어요"
+    },
+    "사다주다": {
+        "display": "사다주다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to buy something and give it to someone",
+        "commonConjugation": "사다줘요"
+    },
+    "출발하다": {
+        "display": "출발하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to leave, to depart",
+        "hanja": "出發하다",
+        "commonConjugation": "출발해요"
+    },
+    "언제든지": {
+        "display": "언제든지",
+        "type": "adverb",
+        "level": 3,
+        "definition": "anytime"
+    },
+    "그럼요": {
+        "display": "그럼요",
+        "type": "phrase",
+        "level": 3,
+        "definition": "of course"
+    },
+    "어서들어오세요": {
+        "display": "어서 들어오세요",
+        "type": "phrase",
+        "level": 3,
+        "definition": "Come on in."
     },
     "비밀": {
         "display": "비밀",
