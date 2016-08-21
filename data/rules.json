@@ -1,0 +1,9 @@
+{
+    "rules": {
+        "korean": {
+            "dictionary": {
+                ".indexOn": ["type", "level"]
+            }
+        }
+    }
+}

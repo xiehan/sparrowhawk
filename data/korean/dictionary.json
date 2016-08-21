@@ -1,0 +1,1640 @@
+{
+    "한국": {
+        "display": "한국",
+        "type": "noun",
+        "level": 1,
+        "definition": "Korea",
+        "hanja": "韓國"
+    },
+    "한국어": {
+        "display": "한국어",
+        "type": "noun",
+        "level": 1,
+        "definition": "Korean language",
+        "hanja": "韓國語"
+    },
+    "도시": {
+        "display": "도시",
+        "type": "noun",
+        "level": 1,
+        "definition": "city",
+        "hanja": "都市"
+    },
+    "이름": {
+        "display": "이름",
+        "type": "noun",
+        "level": 1,
+        "definition": "name"
+    },
+    "저": {
+        "display": "저",
+        "type": "noun",
+        "level": 1,
+        "definition": "I, me (formal)"
+    },
+    "나": {
+        "display": "나",
+        "type": "noun",
+        "level": 1,
+        "definition": "I, me (informal)"
+    },
+    "남자": {
+        "display": "남자",
+        "type": "noun",
+        "level": 1,
+        "definition": "man, male",
+        "hanja": "男子"
+    },
+    "여자": {
+        "display": "여자",
+        "type": "noun",
+        "level": 1,
+        "definition": "woman, female",
+        "hanja": "女子"
+    },
+    "그": {
+        "display": "그",
+        "type": "noun",
+        "level": 1,
+        "definition": "that"
+    },
+    "이": {
+        "display": "이",
+        "type": "noun",
+        "level": 1,
+        "definition": "this"
+    },
+    "저2": {
+        "display": "저",
+        "type": "noun",
+        "level": 1,
+        "definition": "that (when something is far away)"
+    },
+    "것": {
+        "display": "것",
+        "type": "noun",
+        "level": 1,
+        "definition": "thing"
+    },
+    "이것": {
+        "display": "이것",
+        "type": "noun",
+        "level": 1,
+        "definition": "this (thing)"
+    },
+    "그것": {
+        "display": "그것",
+        "type": "noun",
+        "level": 1,
+        "definition": "that (thing)"
+    },
+    "저것": {
+        "display": "저것",
+        "type": "noun",
+        "level": 1,
+        "definition": "that (thing)"
+    },
+    "선생님": {
+        "display": "선생님",
+        "type": "noun",
+        "level": 1,
+        "definition": "teacher",
+        "hanja": "先生님"
+    },
+    "집": {
+        "display": "집",
+        "type": "noun",
+        "level": 1,
+        "definition": "house"
+    },
+    "차": {
+        "display": "차",
+        "type": "noun",
+        "level": 1,
+        "definition": "car"
+    },
+    "사람": {
+        "display": "사람",
+        "type": "noun",
+        "level": 1,
+        "definition": "person"
+    },
+    "책": {
+        "display": "책",
+        "type": "noun",
+        "level": 1,
+        "definition": "book"
+    },
+    "컴퓨터": {
+        "display": "컴퓨터",
+        "type": "noun",
+        "level": 1,
+        "definition": "computer"
+    },
+    "중국": {
+        "display": "중국",
+        "type": "noun",
+        "level": 1,
+        "definition": "China",
+        "hanja": "中國"
+    },
+    "일본": {
+        "display": "일본",
+        "type": "noun",
+        "level": 1,
+        "definition": "Japan",
+        "hanja": "日本"
+    },
+    "학생": {
+        "display": "학생",
+        "type": "noun",
+        "level": 1,
+        "definition": "student",
+        "hanja": "學生"
+    },
+    "이다": {
+        "display": "이다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to be",
+        "commonConjugation": "이에요/예요"
+    },
+    "안": {
+        "display": "안",
+        "type": "adverb",
+        "level": 1,
+        "definition": "not"
+    },
+    "네": {
+        "display": "네",
+        "type": "adverb",
+        "level": 1,
+        "definition": "yes"
+    },
+    "아니": {
+        "display": "아니",
+        "type": "adverb",
+        "level": 1,
+        "definition": "no"
+    },
+    "안녕하세요": {
+        "display": "안녕하세요",
+        "type": "phrase",
+        "level": 1,
+        "definition": "hello"
+    },
+    "잘지내세요": {
+        "display": "잘 지내세요?",
+        "type": "phrase",
+        "level": 1,
+        "definition": "How are you?"
+    },
+    "제발": {
+        "display": "제발",
+        "type": "phrase",
+        "level": 1,
+        "definition": "Please"
+    },
+    "는은": {
+        "display": "~는/은",
+        "type": "particle",
+        "level": 1,
+        "definition": "placed after a word to indicate that it is the topic of a sentence"
+    },
+    "이가": {
+        "display": "~이/가",
+        "type": "particle",
+        "level": 1,
+        "definition": "placed after a word to indicate that it is the subject of a sentence"
+    },
+    "를을": {
+        "display": "~를/을",
+        "type": "particle",
+        "level": 1,
+        "definition": "placed after a word to indicate that it is the object of a sentence"
+    },
+    "에": {
+        "display": "~에",
+        "type": "particle",
+        "level": 1,
+        "definition": "placed after a word to indicate that it is a destination or a time at which something takes place"
+    },
+    "나라": {
+        "display": "나라",
+        "type": "noun",
+        "level": 1,
+        "definition": "country"
+    },
+    "가방": {
+        "display": "가방",
+        "type": "noun",
+        "level": 1,
+        "definition": "bag, backpack"
+    },
+    "커피": {
+        "display": "커피",
+        "type": "noun",
+        "level": 1,
+        "definition": "coffee"
+    },
+    "식당": {
+        "display": "식당",
+        "type": "noun",
+        "level": 1,
+        "definition": "restaurant",
+        "hanja": "食堂"
+    },
+    "텔레비전": {
+        "display": "텔레비전",
+        "type": "noun",
+        "level": 1,
+        "definition": "television"
+    },
+    "미국": {
+        "display": "미국",
+        "type": "noun",
+        "level": 1,
+        "definition": "USA",
+        "hanja": "美國"
+    },
+    "학교": {
+        "display": "학교",
+        "type": "noun",
+        "level": 1,
+        "definition": "school",
+        "hanja": "學校"
+    },
+    "대학교": {
+        "display": "대학교",
+        "type": "noun",
+        "level": 1,
+        "definition": "university, college",
+        "hanja": "大學校"
+    },
+    "교실": {
+        "display": "교실",
+        "type": "noun",
+        "level": 1,
+        "definition": "classroom",
+        "hanja": "敎室"
+    },
+    "회사": {
+        "display": "회사",
+        "type": "noun",
+        "level": 1,
+        "definition": "company, one's workplace",
+        "hanja": "會社"
+    },
+    "여기": {
+        "display": "여기",
+        "type": "adverb",
+        "level": 1,
+        "definition": "here"
+    },
+    "있다": {
+        "display": "있다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "level": 1,
+        "definition": "to exist, to have",
+        "commonConjugation": "있어요"
+    },
+    "없다": {
+        "display": "없다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "level": 1,
+        "definition": "to not exist, to not have",
+        "commonConjugation": "없어요"
+    },
+    "음식": {
+        "display": "음식",
+        "type": "noun",
+        "level": 1,
+        "definition": "food",
+        "hanja": "飮食"
+    },
+    "케이크": {
+        "display": "케이크",
+        "type": "noun",
+        "level": 1,
+        "definition": "cake"
+    },
+    "공원": {
+        "display": "공원",
+        "type": "noun",
+        "level": 1,
+        "definition": "park",
+        "hanja": "公園"
+    },
+    "머리": {
+        "display": "머리",
+        "type": "noun",
+        "level": 1,
+        "definition": "head"
+    },
+    "다리": {
+        "display": "다리",
+        "type": "noun",
+        "level": 1,
+        "definition": "leg"
+    },
+    "손가락": {
+        "display": "손가락",
+        "type": "noun",
+        "level": 1,
+        "definition": "finger"
+    },
+    "귀": {
+        "display": "귀",
+        "type": "noun",
+        "level": 1,
+        "definition": "ear"
+    },
+    "팔": {
+        "display": "팔",
+        "type": "noun",
+        "level": 1,
+        "definition": "arm"
+    },
+    "눈": {
+        "display": "눈",
+        "type": "noun",
+        "level": 1,
+        "definition": "eye"
+    },
+    "입": {
+        "display": "입",
+        "type": "noun",
+        "level": 1,
+        "definition": "mouth"
+    },
+    "배": {
+        "display": "배",
+        "type": "noun",
+        "level": 1,
+        "definition": "stomach"
+    },
+    "버스": {
+        "display": "버스",
+        "type": "noun",
+        "level": 1,
+        "definition": "bus"
+    },
+    "우리": {
+        "display": "우리",
+        "type": "noun",
+        "level": 1,
+        "definition": "us, we"
+    },
+    "먹다": {
+        "display": "먹다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to eat",
+        "commonConjugation": "먹어요"
+    },
+    "가다": {
+        "display": "가다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to go",
+        "commonConjugation": "가요"
+    },
+    "만나다": {
+        "display": "만나다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to meet",
+        "commonConjugation": "만나요"
+    },
+    "만들다": {
+        "display": "만들다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㄹ 불규칙 동사",
+        "level": 1,
+        "definition": "to make",
+        "commonConjugation": "만들어요"
+    },
+    "하다": {
+        "display": "하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to do",
+        "commonConjugation": "해요"
+    },
+    "말하다": {
+        "display": "말하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to speak",
+        "commonConjugation": "말해요"
+    },
+    "좋아하다": {
+        "display": "좋아하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to like",
+        "commonConjugation": "좋아해요"
+    },
+    "크다": {
+        "display": "크다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be big",
+        "commonConjugation": "커요"
+    },
+    "작다": {
+        "display": "작다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be small",
+        "commonConjugation": "작아요"
+    },
+    "비싸다": {
+        "display": "비싸다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be expensive",
+        "commonConjugation": "비싸요"
+    },
+    "싸다": {
+        "display": "싸다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be cheap (not expensive)",
+        "commonConjugation": "싸요"
+    },
+    "좋다": {
+        "display": "좋다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be good",
+        "commonConjugation": "좋아요"
+    },
+    "아주": {
+        "display": "아주",
+        "type": "adverb",
+        "level": 1,
+        "definition": "very"
+    },
+    "너무": {
+        "display": "너무",
+        "type": "adverb",
+        "level": 1,
+        "definition": "too (often used to mean 'very')"
+    },
+    "손": {
+        "display": "손",
+        "type": "noun",
+        "level": 1,
+        "definition": "hand"
+    },
+    "영어": {
+        "display": "영어",
+        "type": "noun",
+        "level": 1,
+        "definition": "English",
+        "hanja": "英語"
+    },
+    "아버지": {
+        "display": "아버지",
+        "type": "noun",
+        "level": 1,
+        "definition": "father"
+    },
+    "어머니": {
+        "display": "어머니",
+        "type": "noun",
+        "level": 1,
+        "definition": "mother"
+    },
+    "맛": {
+        "display": "맛",
+        "type": "noun",
+        "level": 1,
+        "definition": "taste"
+    },
+    "식사": {
+        "display": "식사",
+        "type": "noun",
+        "level": 1,
+        "definition": "meal, cuisine",
+        "hanja": "食事"
+    },
+    "아침": {
+        "display": "아침",
+        "type": "noun",
+        "level": 1,
+        "definition": "morning"
+    },
+    "아침식사": {
+        "display": "아침식사",
+        "type": "noun",
+        "level": 1,
+        "definition": "breakfast"
+    },
+    "물": {
+        "display": "물",
+        "type": "noun",
+        "level": 1,
+        "definition": "water"
+    },
+    "사과": {
+        "display": "사과",
+        "type": "noun",
+        "level": 1,
+        "definition": "apple"
+    },
+    "돈": {
+        "display": "돈",
+        "type": "noun",
+        "level": 1,
+        "definition": "money"
+    },
+    "오다": {
+        "display": "오다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to come",
+        "commonConjugation": "와요"
+    },
+    "배우다": {
+        "display": "배우다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to learn",
+        "commonConjugation": "배워요"
+    },
+    "살다": {
+        "display": "살다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㄹ 불규칙 동사",
+        "level": 1,
+        "definition": "to live",
+        "commonConjugation": "살아요"
+    },
+    "피곤하다": {
+        "display": "피곤하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be tired",
+        "commonConjugation": "피곤해요"
+    },
+    "맛있다": {
+        "display": "맛있다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be delicious",
+        "commonConjugation": "맛있어요"
+    },
+    "맛없다": {
+        "display": "맛없다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be disgusting, to not be delicious",
+        "commonConjugation": "맛없어요"
+    },
+    "재미있다": {
+        "display": "재미있다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be fun, to be funny, to be interesting",
+        "commonConjugation": "재미있어요"
+    },
+    "재미없다": {
+        "display": "재미없다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to not be fun, uninteresting, unenjoyable",
+        "commonConjugation": "재미없어요"
+    },
+    "많다": {
+        "display": "많다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be many of, to be a lot of",
+        "commonConjugation": "	많아요"
+    },
+    "많이": {
+        "display": "많이",
+        "type": "adverb",
+        "level": 1,
+        "definition": "a lot of, many"
+    },
+    "거기": {
+        "display": "거기",
+        "type": "adverb",
+        "level": 1,
+        "definition": "there"
+    },
+    "저기": {
+        "display": "저기",
+        "type": "adverb",
+        "level": 1,
+        "definition": "there (when farther away)"
+    },
+    "지금": {
+        "display": "지금",
+        "type": "adverb",
+        "level": 1,
+        "definition": "now"
+    },
+    "하지만": {
+        "display": "하지만",
+        "type": "conjunction",
+        "level": 1,
+        "definition": "but"
+    },
+    "안녕히가세요": {
+        "display": "안녕히 가세요",
+        "type": "phrase",
+        "level": 1,
+        "definition": "Goodbye (said to somebody going)"
+    },
+    "안녕히계세요": {
+        "display": "안녕히 계세요",
+        "type": "phrase",
+        "level": 1,
+        "definition": "Goodbye (said to somebody staying)"
+    },
+    "이름이뭐예요": {
+        "display": "이름이 뭐예요?",
+        "type": "phrase",
+        "level": 1,
+        "definition": "What is your name?"
+    },
+    "어디에서왔어요": {
+        "display": "어디에서 왔어요?",
+        "type": "phrase",
+        "level": 1,
+        "definition": "Where are you from?"
+    },
+    "도": {
+        "display": "~도",
+        "type": "particle",
+        "level": 1,
+        "definition": "too, as well (at the topic level)"
+    },
+    "오늘": {
+        "display": "오늘",
+        "type": "adverb",
+        "level": 1,
+        "definition": "today"
+    },
+    "어제": {
+        "display": "어제",
+        "type": "adverb",
+        "level": 1,
+        "definition": "yesterday"
+    },
+    "내일": {
+        "display": "내일",
+        "type": "adverb",
+        "level": 1,
+        "definition": "tomorrow"
+    },
+    "모레": {
+        "display": "모레",
+        "type": "adverb",
+        "level": 1,
+        "definition": "the day after tomorrow"
+    },
+    "년": {
+        "display": "년",
+        "type": "noun",
+        "level": 1,
+        "definition": "year"
+    },
+    "일": {
+        "display": "일",
+        "type": "noun",
+        "level": 1,
+        "definition": "day"
+    },
+    "시간": {
+        "display": "시간",
+        "type": "noun",
+        "level": 1,
+        "definition": "time",
+        "hanja": "時間"
+    },
+    "월요일": {
+        "display": "월요일",
+        "type": "noun",
+        "level": 1,
+        "definition": "Monday",
+        "hanja": "月曜日"
+    },
+    "화요일": {
+        "display": "화요일",
+        "type": "noun",
+        "level": 1,
+        "definition": "Tuesday",
+        "hanja": "火曜日"
+    },
+    "수요일": {
+        "display": "수요일",
+        "type": "noun",
+        "level": 1,
+        "definition": "Wednesday",
+        "hanja": "水曜日"
+    },
+    "목요일": {
+        "display": "목요일",
+        "type": "noun",
+        "level": 1,
+        "definition": "Thursday",
+        "hanja": "목요일"
+    },
+    "금요일": {
+        "display": "금요일",
+        "type": "noun",
+        "level": 1,
+        "definition": "Friday",
+        "hanja": "金曜日"
+    },
+    "토요일": {
+        "display": "토요일",
+        "type": "noun",
+        "level": 1,
+        "definition": "Saturday",
+        "hanja": "土曜日"
+    },
+    "일요일": {
+        "display": "일요일",
+        "type": "noun",
+        "level": 1,
+        "definition": "Sunday",
+        "hanja": "日曜日"
+    },
+    "친구": {
+        "display": "친구",
+        "type": "noun",
+        "level": 1,
+        "definition": "friend"
+    },
+    "비": {
+        "display": "비",
+        "type": "noun",
+        "level": 1,
+        "definition": "rain"
+    },
+    "싫어하다": {
+        "display": "싫어하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to not like, to hate",
+        "commonConjugation": "싫어해요"
+    },
+    "싫다": {
+        "display": "싫다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to not be good",
+        "commonConjugation": "싫어요"
+    },
+    "배2": {
+        "display": "배",
+        "type": "noun",
+        "level": 2,
+        "definition": "boat"
+    },
+    "택시": {
+        "display": "택시",
+        "type": "noun",
+        "level": 2,
+        "definition": "taxi"
+    },
+    "열차": {
+        "display": "열차",
+        "type": "noun",
+        "level": 2,
+        "definition": "train",
+        "hanja": "列車"
+    },
+    "비행기": {
+        "display": "비행기",
+        "type": "noun",
+        "level": 2,
+        "definition": "airplane",
+        "hanja": "飛行機"
+    },
+    "자전거": {
+        "display": "자전거",
+        "type": "noun",
+        "level": 2,
+        "definition": "bicycle",
+        "hanja": "自轉車"
+    },
+    "공항": {
+        "display": "공항",
+        "type": "noun",
+        "level": 2,
+        "definition": "airport",
+        "hanja": "空港"
+    },
+    "병원": {
+        "display": "병원",
+        "type": "noun",
+        "level": 2,
+        "definition": "hospital",
+        "hanja": "病院"
+    },
+    "의사": {
+        "display": "의사",
+        "type": "noun",
+        "level": 2,
+        "definition": "doctor",
+        "hanja": "意思"
+    },
+    "의자": {
+        "display": "의자",
+        "type": "noun",
+        "level": 2,
+        "definition": "chair",
+        "hanja": "椅子"
+    },
+    "탁자": {
+        "display": "탁자",
+        "type": "noun",
+        "level": 2,
+        "definition": "table",
+        "hanja": "卓子"
+    },
+    "침대": {
+        "display": "침대",
+        "type": "noun",
+        "level": 2,
+        "definition": "bed",
+        "hanja": "寢臺"
+    },
+    "나무": {
+        "display": "나무",
+        "type": "noun",
+        "level": 2,
+        "definition": "tree, wood"
+    },
+    "소파": {
+        "display": "소파",
+        "type": "noun",
+        "level": 2,
+        "definition": "sofa"
+    },
+    "문": {
+        "display": "문",
+        "type": "noun",
+        "level": 2,
+        "definition": "door",
+        "hanja": "門"
+    },
+    "창문": {
+        "display": "창문",
+        "type": "noun",
+        "level": 2,
+        "definition": "window"
+    },
+    "잡지": {
+        "display": "잡지",
+        "type": "noun",
+        "level": 2,
+        "definition": "magazine"
+    },
+    "방": {
+        "display": "방",
+        "type": "noun",
+        "level": 2,
+        "definition": "room"
+    },
+    "냉장고": {
+        "display": "냉장고",
+        "type": "noun",
+        "level": 2,
+        "definition": "refrigerator"
+    },
+    "개": {
+        "display": "개",
+        "type": "noun",
+        "level": 2,
+        "definition": "dog"
+    },
+    "강아지": {
+        "display": "강아지",
+        "type": "noun",
+        "level": 2,
+        "definition": "puppy"
+    },
+    "고양이": {
+        "display": "고양이",
+        "type": "noun",
+        "level": 2,
+        "definition": "cat"
+    },
+    "쥐": {
+        "display": "쥐",
+        "type": "noun",
+        "level": 2,
+        "definition": "rat"
+    },
+    "펜": {
+        "display": "펜",
+        "type": "noun",
+        "level": 2,
+        "definition": "pen"
+    },
+    "전화기": {
+        "display": "전화기",
+        "type": "noun",
+        "level": 2,
+        "definition": "phone",
+        "hanja": "電話機"
+    },
+    "건물": {
+        "display": "건물",
+        "type": "noun",
+        "level": 2,
+        "definition": "building",
+        hanja: "建物"
+    },
+    "캐나다": {
+        "display": "캐나다",
+        "type": "noun",
+        "level": 2,
+        "definition": "Canada"
+    },
+    "호텔": {
+        "display": "호텔",
+        "type": "noun",
+        "level": 2,
+        "definition": "hotel"
+    },
+    "은행": {
+        "display": "은행",
+        "type": "noun",
+        "level": 2,
+        "definition": "bank",
+        "hanja": "銀行"
+    },
+    "안2": {
+        "display": "안",
+        "type": "adverb",
+        "level": 2,
+        "definition": "inside"
+    },
+    "위": {
+        "display": "위",
+        "type": "adverb",
+        "level": 2,
+        "definition": "on top of"
+    },
+    "밑": {
+        "display": "밑",
+        "type": "adverb",
+        "level": 2,
+        "definition": "below"
+    },
+    "옆": {
+        "display": "옆",
+        "type": "adverb",
+        "level": 2,
+        "definition": "beside"
+    },
+    "뒤": {
+        "display": "뒤",
+        "type": "adverb",
+        "level": 2,
+        "definition": "behind"
+    },
+    "앞": {
+        "display": "앞",
+        "type": "adverb",
+        "level": 2,
+        "definition": "in front of"
+    },
+    "닫다": {
+        "display": "닫다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to close",
+        "commonConjugation": "닫아요"
+    },
+    "열다": {
+        "display": "열다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㄹ 불규칙 동사",
+        "level": 2,
+        "definition": "to open",
+        "commonConjugation": "열어요"
+    },
+    "원하다": {
+        "display": "원하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to want (an object)",
+        "commonConjugation": "원해요"
+    },
+    "이해하다": {
+        "display": "이해하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to understand",
+        "commonConjugation": "이해해요"
+    },
+    "새롭다": {
+        "display": "새롭다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be new",
+        "commonConjugation": "새로워요"
+    },
+    "낡다": {
+        "display": "낡다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be old (not age)",
+        "commonConjugation": "낡아요"
+    },
+    "아름답다": {
+        "display": "아름답다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be beautiful",
+        "commonConjugation": "아름다워요"
+    },
+    "길다": {
+        "display": "길다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㄹ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be long",
+        "commonConjugation": "길어요"
+    },
+    "매우": {
+        "display": "매우",
+        "type": "adverb",
+        "level": 2,
+        "definition": "very"
+    },
+    "의": {
+        "display": "의",
+        "type": "particle",
+        "level": 2,
+        "definition": "of, belonging to"
+    },
+    "아내": {
+        "display": "아내",
+        "type": "noun",
+        "level": 2,
+        "definition": "wife"
+    },
+    "아이": {
+        "display": "아이",
+        "type": "noun",
+        "level": 2,
+        "definition": "child"
+    },
+    "아들": {
+        "display": "아들",
+        "type": "noun",
+        "level": 2,
+        "definition": "son"
+    },
+    "딸": {
+        "display": "딸",
+        "type": "noun",
+        "level": 2,
+        "definition": "daughter"
+    },
+    "남편": {
+        "display": "남편",
+        "type": "noun",
+        "level": 2,
+        "definition": "husband",
+        "hanja": "男便"
+    },
+    "역": {
+        "display": "역",
+        "type": "noun",
+        "level": 2,
+        "definition": "train/subway station"
+    },
+    "버스정류장": {
+        "display": "버스 정류장",
+        "type": "noun",
+        "level": 2,
+        "definition": "bus stop"
+    },
+    "길": {
+        "display": "길",
+        "type": "noun",
+        "level": 2,
+        "definition": "street"
+    },
+    "거리": {
+        "display": "거리",
+        "type": "noun",
+        "level": 2,
+        "definition": "street, road"
+    },
+    "편지": {
+        "display": "편지",
+        "type": "noun",
+        "level": 2,
+        "definition": "letter",
+        "hanja": "便紙"
+    },
+    "춤추다": {
+        "display": "춤추다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to dance",
+        "commonConjugation": "춤춰요"
+    },
+    "알다": {
+        "display": "알다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㄹ 불규칙 동사",
+        "level": 2,
+        "definition": "to know",
+        "commonConjugation": "알아요"
+    },
+    "걷다": {
+        "display": "걷다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㄷ 불규칙 동사",
+        "level": 2,
+        "definition": "to walk",
+        "commonConjugation": "걸어요"
+    },
+    "다르다": {
+        "display": "다르다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "르 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be different",
+        "commonConjugation": "달라요"
+    },
+    "슬프다": {
+        "display": "슬프다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be sad, sorrowful",
+        "commonConjugation": "슬퍼요"
+    },
+    "죄송합니다": {
+        "display": "죄송합니다",
+        "type": "phrase",
+        "level": 2,
+        "definition": "Sorry"
+    },
+    "미안합니다": {
+        "display": "죄송합니다",
+        "type": "phrase",
+        "level": 2,
+        "definition": "Sorry"
+    },
+    "만나서반갑습니다": {
+        "display": "만나서 반갑습니다",
+        "type": "phrase",
+        "level": 2,
+        "definition": "Nice to meet you"
+    },
+    "실례합니다": {
+        "display": "실례합니다",
+        "type": "phrase",
+        "level": 2,
+        "definition": "Excuse me"
+    },
+    "동생": {
+        "display": "동생",
+        "type": "noun",
+        "level": 2,
+        "definition": "younger sibling"
+    },
+    "남동생": {
+        "display": "남동생",
+        "type": "noun",
+        "level": 2,
+        "definition": "younger brother"
+    },
+    "여동생": {
+        "display": "여동생",
+        "type": "noun",
+        "level": 2,
+        "definition": "younger sister"
+    },
+    "형": {
+        "display": "형",
+        "type": "noun",
+        "level": 2,
+        "definition": "older brother"
+    },
+    "오빠": {
+        "display": "오빠",
+        "type": "noun",
+        "level": 2,
+        "definition": "older brother"
+    },
+    "누나": {
+        "display": "누나",
+        "type": "noun",
+        "level": 2,
+        "definition": "older sister"
+    },
+    "언니": {
+        "display": "언니",
+        "type": "noun",
+        "level": 2,
+        "definition": "older sister"
+    },
+    "삼촌": {
+        "display": "삼촌",
+        "type": "noun",
+        "level": 2,
+        "definition": "uncle"
+    },
+    "이모": {
+        "display": "이모",
+        "type": "noun",
+        "level": 2,
+        "definition": "aunt (on mother’s side)"
+    },
+    "고모": {
+        "display": "고모",
+        "type": "noun",
+        "level": 2,
+        "definition": "aunt (on father’s side)"
+    },
+    "아저씨": {
+        "display": "아저씨",
+        "type": "noun",
+        "level": 2,
+        "definition": "older man not related to you"
+    },
+    "아주머니": {
+        "display": "아주머니",
+        "type": "noun",
+        "level": 2,
+        "definition": "older woman not related to you"
+    },
+    "할아버지": {
+        "display": "할아버지",
+        "type": "noun",
+        "level": 2,
+        "definition": "grandfather"
+    },
+    "할머니": {
+        "display": "할머니",
+        "type": "noun",
+        "level": 2,
+        "definition": "grandmother"
+    },
+    "사진": {
+        "display": "사진",
+        "type": "noun",
+        "level": 2,
+        "definition": "picture"
+    },
+    "안경": {
+        "display": "안경",
+        "type": "noun",
+        "level": 2,
+        "definition": "glasses"
+    },
+    "가게": {
+        "display": "가게",
+        "type": "noun",
+        "level": 2,
+        "definition": "a store, shop"
+    },
+    "박물관": {
+        "display": "박물관",
+        "type": "noun",
+        "level": 2,
+        "definition": "museum",
+        "hanja": "博物館"
+    },
+    "가스 레인지": {
+        "display": "가스 레인지",
+        "type": "noun",
+        "level": 2,
+        "definition": "stove (gas range)"
+    },
+    "보고싶다": {
+        "display": "보고 싶다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to miss (a person), lit. to want to see",
+        "commonConjugation": "보고싶어요"
+    },
+    "멀다": {
+        "display": "멀다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be far away",
+        "commonConjugation": "멀어요"
+    },
+    "끝내다": {
+        "display": "끝내다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to finish",
+        "commonConjugation": "끝내요"
+    },
+    "연습하다": {
+        "display": "연습하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to practice",
+        "commonConjugation": "연습해요"
+    },
+    "생각하다": {
+        "display": "생각하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to think",
+        "commonConjugation": "생각해요"
+    },
+    "끝나다": {
+        "display": "끝나다",
+        "type": "verb",
+        "subtype": "passive",
+        "regular": true,
+        "level": 3,
+        "definition": "to be finished",
+        "commonConjugation": "끝나요"
+    },
+    "행복하다": {
+        "display": "행복하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be happy",
+        "hanja": "幸福하다",
+        "commonConjugation": "행복해요"
+    },
+    "오리": {
+        "display": "오리",
+        "type": "noun",
+        "level": 3,
+        "definition": "duck (animal)"
+    },
+    "꼬리": {
+        "display": "꼬리",
+        "type": "noun",
+        "level": 3,
+        "definition": "tail"
+    },
+    "기대하다": {
+        "display": "기대하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to expect, to anticipate",
+        "commonConjugation": "기대해요"
+    },
+    "건너다": {
+        "display": "건너다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to cross (a road/etc)",
+        "commonConjugation": "건너요"
+    },
+    "떠나다": {
+        "display": "떠나다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to leave somewhere",
+        "commonConjugation": "떠나요"
+    },
+    "지루하다": {
+        "display": "지루하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be boring",
+        "commonConjugation": "지루해요"
+    },
+    "마르다": {
+        "display": "마르다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "르 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be dry",
+        "commonConjugation": "말라요"
+    },
+    "비슷하다": {
+        "display": "비슷하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be similar",
+        "commonConjugation": "비슷해요"
+    },
+    "비밀": {
+        "display": "비밀",
+        "type": "noun",
+        "level": 4,
+        "definition": "secret"
+    },
+    "뚱뚱하다": {
+        "display": "뚱뚱하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be fat, to be chubby",
+        "commonConjugation": "뚱뚱해요"
+    },
+    "위험하다": {
+        "display": "위험하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be dangerous",
+        "commonConjugation": "위험해요"
+    },
+    "잘생기다": {
+        "display": "잘생기다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be handsome",
+        "commonConjugation": "잘생겨요"
+    },
+    "못생기다": {
+        "display": "못생기다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be ugly, unattractive",
+        "commonConjugation": "못생겨요"
+    },
+    "던지다": {
+        "display": "던지다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 4,
+        "definition": "to throw",
+        "commonConjugation": "던져요"
+    },
+    "농담하다": {
+        "display": "농담하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 4,
+        "definition": "to joke",
+        "commonConjugation": "농담해요"
+    },
+    "마르다2": {
+        "display": "마르다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "르 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be too thin (for a person)",
+        "commonConjugation": "말라요"
+    },
+    "오래되다": {
+        "display": "오래되다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "for an object to be old",
+        "commonConjugation": "오래돼요"
+    }
+}
