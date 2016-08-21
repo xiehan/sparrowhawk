@@ -1053,6 +1053,61 @@
         "definition": "to be busy",
         "commonConjugation": "바빠요"
     },
+    "도서관": {
+        "display": "도서관",
+        "type": "noun",
+        "level": 1,
+        "definition": "library",
+        "hanja": "圖書館"
+    },
+    "쓰다": {
+        "display": "쓰다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to write",
+        "commonConjugation": "써요"
+    },
+    "읽다": {
+        "display": "읽다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to read",
+        "commonConjugation": "읽어요"
+    },
+    "나쁘다": {
+        "display": "나쁘다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be bad, poor (performance)",
+        "commonConjugation": "나빠요"
+    },
+    "어젯밤": {
+        "display": "어젯밤",
+        "type": "adverb",
+        "level": 1,
+        "definition": "last night"
+    },
+    "밤": {
+        "display": "밤",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 1,
+        "definition": "night"
+    },
+    "낮": {
+        "display": "낮",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 1,
+        "definition": "daytime"
+    },
     "배2": {
         "display": "배",
         "type": "noun",
@@ -1931,6 +1986,127 @@
         "level": 2,
         "definition": "spring"
     },
+    "외국": {
+        "display": "외국",
+        "type": "noun",
+        "level": 2,
+        "definition": "foreign country",
+        "hanja": "外國"
+    },
+    "외국인": {
+        "display": "외국인",
+        "type": "noun",
+        "level": 2,
+        "definition": "foreigner",
+        "hanja": "外國人"
+    },
+    "고등학교": {
+        "display": "고등학교",
+        "type": "noun",
+        "level": 2,
+        "definition": "high school",
+        "hanja": "高等學校"
+    },
+    "쓰다2": {
+        "display": "쓰다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to use, to spend",
+        "commonConjugation": "써요"
+    },
+    "받다": {
+        "display": "받다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to get, to receive, to acquire",
+        "commonConjugation": "받아요"
+    },
+    "여행하다": {
+        "display": "여행하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to travel",
+        "hanja": "旅行하다",
+        "commonConjugation": "여행해요"
+    },
+    "아프다": {
+        "display": "아프다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be sick, to be sore",
+        "commonConjugation": "아파요"
+    },
+    "나이가많다": {
+        "display": "나이가 많다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be old",
+        "commonConjugation": "나이가 많아요"
+    },
+    "매년": {
+        "display": "매년",
+        "type": "adverb",
+        "level": 2,
+        "definition": "every year",
+        "hanja": "每年"
+    },
+    "혼자": {
+        "display": "혼자",
+        "type": "adverb",
+        "level": 2,
+        "definition": "alone"
+    },
+    "곳": {
+        "display": "곳",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "place"
+    },
+    "동": {
+        "display": "동",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "East",
+        "hanja": "东"
+    },
+    "남": {
+        "display": "남",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "South",
+        "hanja": "南"
+    },
+    "서": {
+        "display": "서",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "West",
+        "hanja": "西"
+    },
+    "북": {
+        "display": "북",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "North",
+        "hanja": "北"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -2228,6 +2404,84 @@
         "hanja": "불可能하다",
         "commonConjugation": "불가능해요"
     },
+    "기계": {
+        "display": "기계",
+        "type": "noun",
+        "level": 3,
+        "definition": "machine",
+        "hanja": "機械"
+    },
+    "트럭": {
+        "display": "트럭",
+        "type": "noun",
+        "level": 3,
+        "definition": "truck"
+    },
+    "놀다": {
+        "display": "놀다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㄹ 불규칙 동사",
+        "level": 3,
+        "definition": "to play, to hang out with",
+        "commonConjugation": "놀아요"
+    },
+    "실수하다": {
+        "display": "실수하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to make a mistake",
+        "hanja": "失手하다",
+        "commonConjugation": "실수해요"
+    },
+    "도착하다": {
+        "display": "도착하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to arrive",
+        "hanja": "到着하다",
+        "commonConjugation": "도착해요"
+    },
+    "중요하다": {
+        "display": "중요하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be important",
+        "hanja": "重要하다",
+        "commonConjugation": "중요해요"
+    },
+    "빨리": {
+        "display": "빨리",
+        "type": "adverb",
+        "level": 3,
+        "definition": "quickly, fast"
+    },
+    "자주": {
+        "display": "자주",
+        "type": "adverb",
+        "level": 3,
+        "definition": "often"
+    },
+    "가끔": {
+        "display": "가끔",
+        "type": "adverb",
+        "level": 3,
+        "definition": "sometimes"
+    },
+    "다시": {
+        "display": "다시",
+        "type": "adverb",
+        "level": 3,
+        "definition": "again"
+    },
     "비밀": {
         "display": "비밀",
         "type": "noun",
@@ -2406,5 +2660,124 @@
         "level": 4,
         "definition": "to be soft",
         "commonConjugation": "부드러워요"
+    },
+    "검은색": {
+        "display": "검은색",
+        "type": "noun",
+        "level": 4,
+        "definition": "(the color) black"
+    },
+    "흰색": {
+        "display": "흰색",
+        "type": "noun",
+        "level": 4,
+        "definition": "(the color) white"
+    },
+    "음료수": {
+        "display": "음료수",
+        "type": "noun",
+        "level": 4,
+        "definition": "beverage, drink",
+        "hanja": "飮料水"
+    },
+    "수리하다": {
+        "display": "수리하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 4,
+        "definition": "to repair",
+        "commonConjugation": "수리해요"
+    },
+    "잡다": {
+        "display": "잡다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 4,
+        "definition": "to catch, to grab, to hold",
+        "commonConjugation": "잡아요"
+    },
+    "내다": {
+        "display": "내다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 4,
+        "definition": "to pay for, to hand in, to give",
+        "commonConjugation": "내요"
+    },
+    "완벽하다": {
+        "display": "완벽하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be perfect",
+        "commonConjugation": "완벽해요"
+    },
+    "똑똑하다": {
+        "display": "똑똑하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be smart",
+        "commonConjugation": "똑똑해요"
+    },
+    "젊다": {
+        "display": "젊다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be young, youthful",
+        "commonConjugation": "젊어요"
+    },
+    "늙다": {
+        "display": "늙다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be old",
+        "commonConjugation": "늙어요"
+    },
+    "바로": {
+        "display": "바로",
+        "type": "adverb",
+        "level": 4,
+        "definition": "immediately"
+    },
+    "즉시": {
+        "display": "즉시",
+        "type": "adverb",
+        "level": 4,
+        "definition": "immediately",
+        "hanja": "卽時"
+    },
+    "방금": {
+        "display": "방금",
+        "type": "adverb",
+        "level": 4,
+        "definition": "a moment ago",
+        "hanja": "方今"
+    },
+    "동시에": {
+        "display": "동시에",
+        "type": "adverb",
+        "level": 4,
+        "definition": "at the same time",
+        "hanja": "同時에"
+    },
+    "갑자기": {
+        "display": "갑자기",
+        "type": "adverb",
+        "level": 4,
+        "definition": "suddenly"
     }
 }

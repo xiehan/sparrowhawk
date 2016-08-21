@@ -174,5 +174,21 @@
     "여름": true,
     "가을": true,
     "겨울": true,
-    "봄": true
+    "봄": true,
+    "기계": true,
+    "트럭": true,
+    "검은색": true,
+    "흰색": true,
+    "음료수": true,
+    "외국": true,
+    "외국인": true,
+    "고등학교": true,
+    "도서관": true,
+    "곳": true,
+    "밤": true,
+    "낮": true,
+    "동": true,
+    "남": true,
+    "서": true,
+    "북": true
 }
