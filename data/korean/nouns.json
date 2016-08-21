@@ -158,5 +158,21 @@
     "손목시계": true,
     "영화": true,
     "주": true,
-    "원": true
+    "원": true,
+    "눈썹": true,
+    "교사": true,
+    "반": true,
+    "직장": true,
+    "벽": true,
+    "털": true,
+    "머리카락": true,
+    "저녁": true,
+    "점심": true,
+    "옷": true,
+    "오전": true,
+    "오후": true,
+    "여름": true,
+    "가을": true,
+    "겨울": true,
+    "봄": true
 }

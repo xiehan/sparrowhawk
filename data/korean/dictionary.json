@@ -987,6 +987,72 @@
         "hanja": "工夫하다",
         "commonConjugation": "공부해요"
     },
+    "저녁": {
+        "display": "저녁",
+        "type": "noun",
+        "level": 1,
+        "definition": "dinnertime, evening, dinner"
+    },
+    "점심": {
+        "display": "점심",
+        "type": "noun",
+        "level": 1,
+        "definition": "lunchtime, noonish, lunch",
+        "hanja": "點心"
+    },
+    "가르치다": {
+        "display": "가르치다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to teach",
+        "commonConjugation": "가르쳐요"
+    },
+    "일하다": {
+        "display": "일하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to work",
+        "commonConjugation": "일해요"
+    },
+    "주다": {
+        "display": "주다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to give",
+        "commonConjugation": "주세요"
+    },
+    "오전": {
+        "display": "오전",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 1,
+        "definition": "morning",
+        "hanja": "誤傳"
+    },
+    "오후": {
+        "display": "오후",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 1,
+        "definition": "afternoon",
+        "hanja": "誤傳"
+    },
+    "바쁘다": {
+        "display": "바쁘다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be busy",
+        "commonConjugation": "바빠요"
+    },
     "배2": {
         "display": "배",
         "type": "noun",
@@ -1147,7 +1213,7 @@
         "type": "noun",
         "level": 2,
         "definition": "building",
-        hanja: "建物"
+        "hanja": "建物"
     },
     "캐나다": {
         "display": "캐나다",
@@ -1719,6 +1785,152 @@
         "level": 2,
         "definition": "bottom"
     },
+    "교사": {
+        "display": "교사",
+        "type": "noun",
+        "level": 2,
+        "definition": "teacher",
+        "hanja": "敎師"
+    },
+    "반": {
+        "display": "반",
+        "type": "noun",
+        "level": 2,
+        "definition": "class of students in school"
+    },
+    "직장": {
+        "display": "직장",
+        "type": "noun",
+        "level": 2,
+        "definition": "workplace",
+        "hanja": "職場"
+    },
+    "벽": {
+        "display": "벽",
+        "type": "noun",
+        "level": 2,
+        "definition": "wall"
+    },
+    "옷": {
+        "display": "옷",
+        "type": "noun",
+        "level": 2,
+        "definition": "clothes"
+    },
+    "찾다": {
+        "display": "찾다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to search for, to find",
+        "commonConjugation": "찾아요"
+    },
+    "맞다": {
+        "display": "맞다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to be correct",
+        "commonConjugation": "맞아요"
+    },
+    "쉽다": {
+        "display": "쉽다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be easy",
+        "commonConjugation": "쉬워요"
+    },
+    "덥다": {
+        "display": "덥다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be hot",
+        "commonConjugation": "더워요"
+    },
+    "춥다": {
+        "display": "춥다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be cold",
+        "commonConjugation": "추워요"
+    },
+    "어렵다": {
+        "display": "어렵다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be difficult, hard",
+        "commonConjugation": "어려워요"
+    },
+    "더럽다": {
+        "display": "더럽다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be dirty",
+        "commonConjugation": "더러워요"
+    },
+    "일찍": {
+        "display": "일찍",
+        "type": "adverb",
+        "level": 2,
+        "definition": "early"
+    },
+    "매일": {
+        "display": "매일",
+        "type": "adverb",
+        "level": 2,
+        "definition": "every day",
+        "hanja": "每日"
+    },
+    "여름": {
+        "display": "여름",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "summer"
+    },
+    "가을": {
+        "display": "가을",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "fall"
+    },
+    "겨울": {
+        "display": "겨울",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "winter"
+    },
+    "봄": {
+        "display": "봄",
+        "type": "noun",
+        "alternateType": "adverb",
+        "level": 2,
+        "definition": "spring"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -1927,6 +2139,95 @@
         "definition": "to be surprised",
         "commonConjugation": "놀라요"
     },
+    "눈썹": {
+        "display": "눈썹",
+        "type": "noun",
+        "level": 3,
+        "definition": "eyebrow"
+    },
+    "털": {
+        "display": "털",
+        "type": "noun",
+        "level": 3,
+        "definition": "hair (not on head), fur"
+    },
+    "머리카락": {
+        "display": "머리카락",
+        "type": "noun",
+        "level": 3,
+        "definition": "hair (on head)"
+    },
+    "가지다": {
+        "display": "가지다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to own, to possess",
+        "commonConjugation": "가져요"
+    },
+    "잊다": {
+        "display": "잊다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to forget",
+        "commonConjugation": "잊어요"
+    },
+    "돕다": {
+        "display": "돕다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "level": 3,
+        "definition": "to help",
+        "commonConjugation": "도와요"
+    },
+    "같다": {
+        "display": "같다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be the same",
+        "commonConjugation": "같아요"
+    },
+    "안전하다": {
+        "display": "안전하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be safe",
+        "hanja": "安全하다",
+        "commonConjugation": "안전해요"
+    },
+    "가능하다": {
+        "display": "가능하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be possible",
+        "hanja": "可能하다",
+        "commonConjugation": "가능해요"
+    },
+    "불가능하다": {
+        "display": "불가능하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be impossible",
+        "hanja": "불可能하다",
+        "commonConjugation": "불가능해요"
+    },
     "비밀": {
         "display": "비밀",
         "type": "noun",
@@ -2043,5 +2344,67 @@
         "type": "noun",
         "level": 4,
         "definition": "hill"
+    },
+    "짓다": {
+        "display": "짓다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㅅ 불규칙 동사",
+        "level": 4,
+        "definition": "to build",
+        "commonConjugation": "지어요"
+    },
+    "잠그다": {
+        "display": "잠그다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 4,
+        "definition": "to lock",
+        "commonConjugation": "잠가요"
+    },
+    "그립다": {
+        "display": "그립다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to miss (something)",
+        "commonConjugation": "그리워요"
+    },
+    "귀엽다": {
+        "display": "귀엽다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be cute",
+        "commonConjugation": "귀여워요"
+    },
+    "딱딱하다": {
+        "display": "딱딱하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be hard, to be rigid",
+        "commonConjugation": "딱딱해요"
+    },
+    "부드럽다": {
+        "display": "부드럽다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 4,
+        "definition": "to be soft",
+        "commonConjugation": "부드러워요"
     }
 }
