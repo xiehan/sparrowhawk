@@ -22,14 +22,29 @@
   "bugs": {
     "url": "https://github.com/xiehan/sparrowhawk/issues"
   },
-  "main": "src/ts/index.ts",
+  "main": "src/app/index.ts",
   "scripts": {
-    "test": "gulp test.browser/ci",
     "postinstall": "typings install",
-    "lint": "tslint 'src/**/*.ts'"
+    "update": "npm prune && npm cache clean && npm install",
+    "init": "gulp init",
+    "lint": "tslint 'src/**/*.ts'",
+    "start": "npm run start:ios",
+    "start:ios": "gulp start.ios",
+    "start:android": "gulp start.android",
+    "test": "gulp test.browser/ci",
+    "pree2e": "npm run webdriver:update -- --standalone",
+    "e2e": "protractor",
+    "e2e:ios": "npm run e2e -- test/protractor.conf.ios.dev.js",
+    "e2e:ios:ci": "npm run e2e -- test/protractor.conf.ios.ci.js",
+    "e2e:android": "npm run e2e -- test/protractor.conf.android.dev.js",
+    "e2e:android:ci": "npm run e2e -- test/protractor.conf.android.ci.js",
+    "webdriver:update": "webdriver-manager update",
+    "webdriver:start": "webdriver-manager start"
   },
   "dependencies": {
-    "angular2-react-native": "0.0.1-alpha.15"
+    "angular2-react-native": "0.0.1-alpha.15",
+    "react": "~15.2.1",
+    "react-native-material-kit": "^0.3.2"
   },
   "devDependencies": {
     "codelyzer": "0.0.28",
@@ -43,7 +58,8 @@
     "karma": "^0.13.21",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6",
-    "protractor": "^3.2.2",
+    "karma-nyan-reporter": "^0.2.4",
+    "protractor": "^3.3.0",
     "run-sequence": "~1.1.2",
     "systemjs": "^0.19.25",
     "through2": "~0.6.3",
@@ -52,6 +68,10 @@
     "typescript": "^1.8.10",
     "wd": "^0.4.0",
     "wd-bridge": "^0.0.2"
+  },
+  "engines": {
+    "node": ">= 4.1",
+    "npm": ">= 2.14.3"
   },
   "private": true
 }
