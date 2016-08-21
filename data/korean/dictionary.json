@@ -2480,6 +2480,24 @@
         "definition": "years in school, grade levels",
         "hanja": "學年"
     },
+    "전공하다": {
+        "display": "전공하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to major in",
+        "commonConjugation": "전공해요"
+    },
+    "구경하다": {
+        "display": "구경하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to see the sights, to look around",
+        "commonConjugation": "구경해요"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -3397,6 +3415,109 @@
         "level": 3,
         "definition": "container, bucket",
         "hanja": "桶"
+    },
+    "다니다": {
+        "display": "다니다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to attend",
+        "commonConjugation": "다녀요"
+    },
+    "알리다": {
+        "display": "알리다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to let someone know, to inform",
+        "commonConjugation": "알려요"
+    },
+    "농구하다": {
+        "display": "농구하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to play basketball",
+        "hanja": "籠球하다",
+        "commonConjugation": "농구해요"
+    },
+    "사귀다": {
+        "display": "사귀다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to make friends",
+        "commonConjugation": "사귀어요"
+    },
+    "친절하다": {
+        "display": "친절하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be kind",
+        "hanja": "親切하다",
+        "commonConjugation": "친절해요"
+    },
+    "편하다": {
+        "display": "편하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be comfortable",
+        "commonConjugation": "편해요"
+    },
+    "고향": {
+        "display": "고향",
+        "type": "noun",
+        "level": 3,
+        "definition": "hometown"
+    },
+    "문화": {
+        "display": "문화",
+        "type": "noun",
+        "level": 3,
+        "definition": "culture",
+        "hanja": "文化"
+    },
+    "이제": {
+        "display": "이제",
+        "type": "noun",
+        "level": 3,
+        "definition": "now"
+    },
+    "취미": {
+        "display": "취미",
+        "type": "noun",
+        "level": 3,
+        "definition": "hobby",
+        "hanja": "趣味"
+    },
+    "모두": {
+        "display": "모두",
+        "type": "adverb",
+        "level": 3,
+        "definition": "everyone, all"
+    },
+    "제일": {
+        "display": "제일",
+        "type": "adverb",
+        "level": 3,
+        "definition": "best, most",
+        "hanja": "第一"
+    },
+    "또": {
+        "display": "또",
+        "type": "adverb",
+        "level": 3,
+        "definition": "again"
     },
     "비밀": {
         "display": "비밀",
