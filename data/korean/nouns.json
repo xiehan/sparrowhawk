@@ -36,7 +36,7 @@
     "잡지": true,
     "방": true,
     "냉장고": true,
-    "개": true,
+    "개2": true,
     "강아지": true,
     "고양이": true,
     "쥐": true,
@@ -264,5 +264,8 @@
     "자두": true,
     "석류": true,
     "산딸기": true,
-    "귤": true
+    "귤": true,
+    "층": true,
+    "잔": true,
+    "통2": true
 }

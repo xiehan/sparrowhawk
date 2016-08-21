@@ -2,5 +2,22 @@
     "년": true,
     "일": true,
     "병": true,
-    "원": true
+    "원": true,
+    "개": true,
+    "마리": true,
+    "명": true,
+    "층": true,
+    "잔": true,
+    "대": true,
+    "과": true,
+    "권": true,
+    "장": true,
+    "살": true,
+    "과2": true,
+    "학년": true,
+    "분": true,
+    "채": true,
+    "동2": true,
+    "통": true,
+    "통2": true
 }

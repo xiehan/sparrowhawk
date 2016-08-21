@@ -1140,6 +1140,29 @@
         "level": 1,
         "definition": "banana"
     },
+    "개": {
+        "display": "개",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 1,
+        "definition": "things, objects, something with no specific counter or whose counter is unknown by the speaker",
+        "hanja": "個"
+    },
+    "마리": {
+        "display": "마리",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 1,
+        "definition": "animals"
+    },
+    "명": {
+        "display": "명",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 1,
+        "definition": "people (informal)",
+        "hanja": "名"
+    },
     "배2": {
         "display": "배",
         "type": "noun",
@@ -1258,7 +1281,7 @@
         "level": 2,
         "definition": "refrigerator"
     },
-    "개": {
+    "개2": {
         "display": "개",
         "type": "noun",
         "level": 2,
@@ -2384,6 +2407,79 @@
         "level": 2,
         "definition": "tangerine"
     },
+    "층": {
+        "display": "층",
+        "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "sino",
+        "level": 2,
+        "definition": "floor (of a building), layer",
+        "hanja": "層"
+    },
+    "잔": {
+        "display": "잔",
+        "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "native",
+        "level": 2,
+        "definition": "cup, mug, glass",
+        "hanja": "盞"
+    },
+    "대": {
+        "display": "대",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 2,
+        "definition": "vehicles (e.g. cars, airplanes), machinery (e.g. computers)",
+        "hanja": "臺"
+    },
+    "과": {
+        "display": "과",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 2,
+        "definition": "lessons (but not individual lesson numbers)",
+        "hanja": "課"
+    },
+    "권": {
+        "display": "권",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 2,
+        "definition": "books",
+        "hanja": "券"
+    },
+    "장": {
+        "display": "장",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 2,
+        "definition": "sheets of paper",
+        "hanja": "張"
+    },
+    "살": {
+        "display": "살",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 2,
+        "definition": "years (as in e.g. one's age)"
+    },
+    "과2": {
+        "display": "과",
+        "type": "counter",
+        "takesNumbers": "sino",
+        "level": 2,
+        "definition": "lesson numbers (but not total number of lessons)",
+        "hanja": "課"
+    },
+    "학년": {
+        "display": "학년",
+        "type": "counter",
+        "takesNumbers": "sino",
+        "level": 2,
+        "definition": "years in school, grade levels",
+        "hanja": "學年"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -3262,6 +3358,45 @@
         "type": "adverb",
         "level": 3,
         "definition": "finally"
+    },
+    "분": {
+        "display": "분",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 3,
+        "definition": "people (honorific)"
+    },
+    "채": {
+        "display": "채",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 3,
+        "definition": "houses"
+    },
+    "동2": {
+        "display": "동",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 3,
+        "definition": "buildings",
+        "hanja": "棟"
+    },
+    "통": {
+        "display": "통",
+        "type": "counter",
+        "takesNumbers": "native",
+        "level": 3,
+        "definition": "letters, telegrams, telephone calls, e-mails",
+        "hanja": "通"
+    },
+    "통2": {
+        "display": "통",
+        "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "native",
+        "level": 3,
+        "definition": "container, bucket",
+        "hanja": "桶"
     },
     "비밀": {
         "display": "비밀",
