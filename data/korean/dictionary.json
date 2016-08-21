@@ -760,14 +760,29 @@
     "년": {
         "display": "년",
         "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "sino",
         "level": 1,
-        "definition": "year"
+        "definition": "year",
+        "hanja": "年"
+    },
+    "월": {
+        "display": "월",
+        "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "sino",
+        "level": 1,
+        "definition": "month",
+        "hanja": "月"
     },
     "일": {
         "display": "일",
         "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "sino",
         "level": 1,
-        "definition": "day"
+        "definition": "day",
+        "hanja": "日"
     },
     "시간": {
         "display": "시간",
@@ -855,6 +870,122 @@
         "level": 1,
         "definition": "to not be good",
         "commonConjugation": "싫어요"
+    },
+    "배고프다": {
+        "display": "배고프다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 1,
+        "definition": "to be hungry",
+        "commonConjugation": "배고파요"
+    },
+    "질문": {
+        "display": "질문",
+        "type": "noun",
+        "level": 1,
+        "definition": "question",
+        "hanja": "質問"
+    },
+    "차2": {
+        "display": "차",
+        "type": "noun",
+        "level": 1,
+        "definition": "tea",
+        "hanja": "茶"
+    },
+    "병": {
+        "display": "병",
+        "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "native",
+        "level": 1,
+        "definition": "bottle",
+        "hanja": "甁"
+    },
+    "우유": {
+        "display": "우유",
+        "type": "noun",
+        "level": 1,
+        "definition": "milk",
+        "hanja": "牛乳"
+    },
+    "시계": {
+        "display": "시계",
+        "type": "noun",
+        "level": 1,
+        "definition": "clock, watch",
+        "hanja": "時計"
+    },
+    "영화": {
+        "display": "영화",
+        "type": "noun",
+        "level": 1,
+        "definition": "movie"
+    },
+    "주": {
+        "display": "주",
+        "type": "noun",
+        "level": 1,
+        "definition": "week",
+        "hanja": "周"
+    },
+    "원": {
+        "display": "원",
+        "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "sino",
+        "level": 1,
+        "definition": "Won (the South Korean currency)"
+    },
+    "자다": {
+        "display": "자다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to sleep",
+        "commonConjugation": "자요"
+    },
+    "보다": {
+        "display": "보다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to see, to watch, to look at, to try",
+        "commonConjugation": "봐요"
+    },
+    "듣다": {
+        "display": "듣다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㄷ 불규칙 동사",
+        "level": 1,
+        "definition": "to hear, to listen",
+        "commonConjugation": "들어요"
+    },
+    "운동하다": {
+        "display": "운동하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to exercise",
+        "hanja": "運動하다",
+        "commonConjugation": "운동해요"
+    },
+    "공부하다": {
+        "display": "공부하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to study",
+        "hanja": "工夫하다",
+        "commonConjugation": "공부해요"
     },
     "배2": {
         "display": "배",
@@ -1435,6 +1566,159 @@
         "definition": "to be far away",
         "commonConjugation": "멀어요"
     },
+    "신발": {
+        "display": "신발",
+        "type": "noun",
+        "level": 2,
+        "definition": "shoe"
+    },
+    "남방": {
+        "display": "남방",
+        "type": "noun",
+        "level": 2,
+        "definition": "shirt"
+    },
+    "문제": {
+        "display": "문제",
+        "type": "noun",
+        "level": 2,
+        "definition": "question, problem",
+        "hanja": "問題"
+    },
+    "나이": {
+        "display": "나이",
+        "type": "noun",
+        "level": 2,
+        "definition": "age"
+    },
+    "바지": {
+        "display": "바지",
+        "type": "noun",
+        "level": 2,
+        "definition": "pants"
+    },
+    "수도": {
+        "display": "수도",
+        "type": "noun",
+        "level": 2,
+        "definition": "capital city",
+        "hanja": "首都"
+    },
+    "생선": {
+        "display": "생선",
+        "type": "noun",
+        "level": 2,
+        "definition": "fish",
+        "hanja": "生鮮"
+    },
+    "야채": {
+        "display": "야채",
+        "type": "noun",
+        "level": 2,
+        "definition": "vegetable"
+    },
+    "선물": {
+        "display": "선물",
+        "type": "noun",
+        "level": 2,
+        "definition": "present",
+        "hanja": "膳物"
+    },
+    "기타": {
+        "display": "기타",
+        "type": "noun",
+        "level": 2,
+        "definition": "guitar"
+    },
+    "종이": {
+        "display": "종이",
+        "type": "noun",
+        "level": 2,
+        "definition": "paper"
+    },
+    "앉다": {
+        "display": "앉다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to sit",
+        "commonConjugation": "앉아요"
+    },
+    "만지다": {
+        "display": "만지다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to touch",
+        "commonConjugation": "만지지 마세요"
+    },
+    "기다리다": {
+        "display": "기다리다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to wait",
+        "commonConjugation": "기다려요"
+    },
+    "청소하다": {
+        "display": "청소하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to clean",
+        "commonConjugation": "청소해요"
+    },
+    "약속하다": {
+        "display": "약속하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 2,
+        "definition": "to promise",
+        "hanja": "約束하다",
+        "commonConjugation": "약속해요"
+    },
+    "빠르다": {
+        "display": "빠르다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "르 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be fast",
+        "commonConjugation": "빨라요"
+    },
+    "느리다": {
+        "display": "느리다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be slow",
+        "commonConjugation": "느려요"
+    },
+    "착하다": {
+        "display": "착하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be nice, good-natured",
+        "commonConjugation": "착해요"
+    },
+    "아래": {
+        "display": "아래",
+        "type": "adverb",
+        "level": 2,
+        "definition": "bottom"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -1552,6 +1836,97 @@
         "definition": "to be similar",
         "commonConjugation": "비슷해요"
     },
+    "화장실": {
+        "display": "화장실",
+        "type": "noun",
+        "level": 3,
+        "definition": "bathroom, restroom",
+        "hanja": "化粧室"
+    },
+    "부장님": {
+        "display": "부장님",
+        "type": "noun",
+        "level": 3,
+        "definition": "boss",
+        "hanja": "部長님"
+    },
+    "교감선생님": {
+        "display": "교감선생님",
+        "type": "noun",
+        "level": 3,
+        "definition": "vice principal",
+        "hanja": "교감先生님"
+    },
+    "교장선생님": {
+        "display": "교장선생님",
+        "type": "noun",
+        "level": 3,
+        "definition": "principal",
+        "hanja": "校長先生님"
+    },
+    "손목": {
+        "display": "손목",
+        "type": "noun",
+        "level": 3,
+        "definition": "wrist"
+    },
+    "손목시계": {
+        "display": "손목시계",
+        "type": "noun",
+        "level": 3,
+        "definition": "wristwatch",
+        "hanja": "손목時計"
+    },
+    "노력하다": {
+        "display": "노력하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to try",
+        "hanja": "勞力하다",
+        "commonConjugation": "노력해요"
+    },
+    "들어보다": {
+        "display": "들어보다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to listen, lit. to try listening",
+        "commonConjugation": "들어봐요"
+    },
+    "그만하다": {
+        "display": "그만하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to stop",
+        "commonConjugation": "그만해요"
+    },
+    "곧": {
+        "display": "곧",
+        "type": "adverb",
+        "level": 3,
+        "definition": "soon"
+    },
+    "항상": {
+        "display": "항상",
+        "type": "adverb",
+        "level": 3,
+        "definition": "always"
+    },
+    "놀라다": {
+        "display": "놀라다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be surprised",
+        "commonConjugation": "놀라요"
+    },
     "비밀": {
         "display": "비밀",
         "type": "noun",
@@ -1636,5 +2011,37 @@
         "level": 4,
         "definition": "for an object to be old",
         "commonConjugation": "오래돼요"
+    },
+    "분위기": {
+        "display": "분위기",
+        "type": "noun",
+        "level": 4,
+        "definition": "the atmosphere of something",
+        "hanja": "雰圍氣"
+    },
+    "급식": {
+        "display": "급식",
+        "type": "noun",
+        "level": 4,
+        "definition": "food at school"
+    },
+    "풀": {
+        "display": "풀",
+        "type": "noun",
+        "level": 4,
+        "definition": "glue"
+    },
+    "병2": {
+        "display": "병",
+        "type": "noun",
+        "level": 4,
+        "definition": "disease, sickness",
+        "hanja": "病"
+    },
+    "언덕": {
+        "display": "언덕",
+        "type": "noun",
+        "level": 4,
+        "definition": "hill"
     }
 }
