@@ -2128,6 +2128,26 @@
         "definition": "train",
         "hanja": "汽車"
     },
+    "사무실": {
+        "display": "사무실",
+        "type": "noun",
+        "level": 2,
+        "definition": "office",
+        "hanja": "事務室"
+    },
+    "대학원": {
+        "display": "대학원",
+        "type": "noun",
+        "level": 2,
+        "definition": "graduate school",
+        "hanja": "大學院"
+    },
+    "올해": {
+        "display": "올해",
+        "type": "noun",
+        "level": 2,
+        "definition": "this year"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -2833,6 +2853,179 @@
         "alternateType": "conjunction",
         "level": 3,
         "definition": "so"
+    },
+    "복습하다": {
+        "display": "복습하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to review",
+        "hanja": "復習하다",
+        "commonConjugation": "복습해요"
+    },
+    "예습하다": {
+        "display": "예습하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to study in advance (e.g. before class)",
+        "commonConjugation": "예습해요"
+    },
+    "조깅하다": {
+        "display": "조깅하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to jog",
+        "commonConjugation": "조깅해요"
+    },
+    "준비하다": {
+        "display": "준비하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to prepare",
+        "hanja": "準備하다",
+        "commonConjugation": "준비해요"
+    },
+    "통화하다": {
+        "display": "통화하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to talk on the phone",
+        "hanja": "通話하다",
+        "commonConjugation": "통화해요"
+    },
+    "회의하다": {
+        "display": "회의하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to have a meeting",
+        "hanja": "會議하다",
+        "commonConjugation": "회의해요"
+    },
+    "그만두다": {
+        "display": "그만두다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to stop, to give up, to quit",
+        "commonConjugation": "그만둬요"
+    },
+    "알아보다": {
+        "display": "알아보다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to look for",
+        "commonConjugation": "알아봐요"
+    },
+    "등록하다": {
+        "display": "등록하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to register for",
+        "commonConjugation": "등록해요"
+    },
+    "졸리다": {
+        "display": "졸리다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be sleepy",
+        "commonConjugation": "졸려요"
+    },
+    "지각하다": {
+        "display": "지각하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be late",
+        "hanja": "知覺하다",
+        "commonConjugation": "지각해요"
+    },
+    "화가나다": {
+        "display": "화가나다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be angry",
+        "commonConjugation": "화가나요"
+    },
+    "통역": {
+        "display": "통역",
+        "type": "noun",
+        "level": 3,
+        "definition": "translation",
+        "hanja": "通譯"
+    },
+    "사장님": {
+        "display": "사장님",
+        "type": "noun",
+        "level": 3,
+        "definition": "boss",
+        "hanja": "社長님"
+    },
+    "알람소리": {
+        "display": "알람소리",
+        "type": "noun",
+        "level": 3,
+        "definition": "sound of the alarm"
+    },
+    "말하기": {
+        "display": "말하기",
+        "type": "noun",
+        "level": 3,
+        "definition": "speaking"
+    },
+    "어른": {
+        "display": "어른",
+        "type": "noun",
+        "level": 3,
+        "definition": "adult"
+    },
+    "주중": {
+        "display": "주중",
+        "type": "noun",
+        "level": 3,
+        "definition": "on weekdays, during the work week"
+    },
+    "학원": {
+        "display": "학원",
+        "type": "noun",
+        "level": 3,
+        "definition": "private educational institute, academy, cram school",
+        "hanja": "學園"
+    },
+    "이따가": {
+        "display": "이따가",
+        "type": "adverb",
+        "level": 3,
+        "definition": "later"
+    },
+    "드디어": {
+        "display": "드디어",
+        "type": "adverb",
+        "level": 3,
+        "definition": "finally"
     },
     "비밀": {
         "display": "비밀",

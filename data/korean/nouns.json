@@ -215,5 +215,15 @@
     "첫번째": true,
     "퇴근시간": true,
     "택시기사": true,
-    "횡단보도": true
+    "횡단보도": true,
+    "대학원": true,
+    "올해": true,
+    "통역": true,
+    "사무실": true,
+    "사장님": true,
+    "알람소리": true,
+    "말하기": true,
+    "어른": true,
+    "주중": true,
+    "학원": true
 }
