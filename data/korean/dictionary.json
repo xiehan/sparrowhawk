@@ -2329,6 +2329,61 @@
         "level": 2,
         "definition": "chili pepper"
     },
+    "살구": {
+        "display": "살구",
+        "type": "noun",
+        "level": 2,
+        "definition": "apricot"
+    },
+    "자몽": {
+        "display": "자몽",
+        "type": "noun",
+        "level": 2,
+        "definition": "grapefruit"
+    },
+    "여지": {
+        "display": "여지",
+        "type": "noun",
+        "level": 2,
+        "definition": "lychee"
+    },
+    "망고": {
+        "display": "망고",
+        "type": "noun",
+        "level": 2,
+        "definition": "mango"
+    },
+    "감": {
+        "display": "감",
+        "type": "noun",
+        "level": 2,
+        "definition": "persimmon"
+    },
+    "자두": {
+        "display": "자두",
+        "type": "noun",
+        "level": 2,
+        "definition": "plum"
+    },
+    "석류": {
+        "display": "석류",
+        "type": "noun",
+        "level": 2,
+        "definition": "pomegranate",
+        "hanja": "石榴"
+    },
+    "산딸기": {
+        "display": "산딸기",
+        "type": "noun",
+        "level": 2,
+        "definition": "raspberry"
+    },
+    "귤": {
+        "display": "귤",
+        "type": "noun",
+        "level": 2,
+        "definition": "tangerine"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
