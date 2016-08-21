@@ -16,6 +16,7 @@
     "거기": true,
     "저기": true,
     "지금": true,
+    "하지만": true,
     "곧": true,
     "항상": true,
     "아래": true,
@@ -45,5 +46,6 @@
     "동": true,
     "남": true,
     "서": true,
-    "북": true
+    "북": true,
+    "그러니까": true
 }

@@ -699,9 +699,10 @@
     },
     "하지만": {
         "display": "하지만",
-        "type": "conjunction",
+        "type": "adverb",
+        "alternateType": "conjunction",
         "level": 1,
-        "definition": "but"
+        "definition": "but, however"
     },
     "안녕히가세요": {
         "display": "안녕히 가세요",
@@ -1107,6 +1108,15 @@
         "alternateType": "adverb",
         "level": 1,
         "definition": "daytime"
+    },
+    "아니다": {
+        "display": "아니다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 1,
+        "definition": "to not be",
+        "commonConjugation": "아니에요"
     },
     "배2": {
         "display": "배",
@@ -2107,6 +2117,13 @@
         "definition": "North",
         "hanja": "北"
     },
+    "기차": {
+        "display": "기차",
+        "type": "noun",
+        "level": 2,
+        "definition": "train",
+        "hanja": "汽車"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -2303,7 +2320,7 @@
         "display": "항상",
         "type": "adverb",
         "level": 3,
-        "definition": "always"
+        "definition": "always, all the time"
     },
     "놀라다": {
         "display": "놀라다",
@@ -2481,6 +2498,337 @@
         "type": "adverb",
         "level": 3,
         "definition": "again"
+    },
+    "고장나다": {
+        "display": "고장나다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be out of order",
+        "commonConjugation": "고장났어요"
+    },
+    "깨끗하다": {
+        "display": "깨끗하다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be clean",
+        "commonConjugation": "깨끗해요"
+    },
+    "돌아오다": {
+        "display": "돌아오다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to return, to come back",
+        "commonConjugation": "돌아와요"
+    },
+    "빨래하다": {
+        "display": "빨래하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to do laundry",
+        "commonConjugation": "빨래해요"
+    },
+    "사업하다": {
+        "display": "사업하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to do business",
+        "hanja": "事業하다",
+        "commonConjugation": "사업해요"
+    },
+    "정리하다": {
+        "display": "정리하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to prepare",
+        "hanja": "定理하다",
+        "commonConjugation": "정리해요"
+    },
+    "스트레칭하다": {
+        "display": "스트레칭하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to stretch (the body)",
+        "commonConjugation": "스트레칭해요"
+    },
+    "씻다": {
+        "display": "씻다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to wash",
+        "commonConjugation": "	씻어요"
+    },
+    "인사하다": {
+        "display": "인사하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to greet",
+        "hanja": "人事하다",
+        "commonConjugation": "인사하다해요"
+    },
+    "나오다": {
+        "display": "나오다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to come out",
+        "commonConjugation": "나와요"
+    },
+    "뛰어내리다": {
+        "display": "뛰어내리다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to land after jumping",
+        "commonConjugation": "뛰어내려요"
+    },
+    "고민하다": {
+        "display": "고민하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to debate, to consider",
+        "hanja": "苦悶하다",
+        "commonConjugation": "고민해요"
+    },
+    "생각나다": {
+        "display": "생각나다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to occur to (one), to remember",
+        "commonConjugation": "~이/가 생각나요"
+    },
+    "초대하다": {
+        "display": "초대하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to invite",
+        "hanja": "初代하다",
+        "commonConjugation": "~에 초대해요"
+    },
+    "추천하다": {
+        "display": "추천하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to recommend",
+        "commonConjugation": "추천해요"
+    },
+    "들어가다": {
+        "display": "들어가다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to enter, to go into",
+        "commonConjugation": "~으로 들어가요"
+    },
+    "세우다": {
+        "display": "세우다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to stop (e.g. a car)",
+        "commonConjugation": "세워요"
+    },
+    "간식": {
+        "display": "간식",
+        "type": "noun",
+        "level": 3,
+        "definition": "snacks",
+        "hanja": "間食"
+    },
+    "방송국": {
+        "display": "방송국",
+        "type": "noun",
+        "level": 3,
+        "definition": "broadcasting station",
+        "hanja": "放送局"
+    },
+    "여러가지": {
+        "display": "여러가지",
+        "type": "noun",
+        "level": 3,
+        "definition": "many, several"
+    },
+    "놀이공원": {
+        "display": "놀이 공원",
+        "type": "noun",
+        "level": 3,
+        "definition": "amusement park",
+        "hanja": "놀이 公園"
+    },
+    "동물원": {
+        "display": "동물원",
+        "type": "noun",
+        "level": 3,
+        "definition": "zoo",
+        "hanja": "動物원"
+    },
+    "언제나": {
+        "display": "언제나",
+        "type": "adverb",
+        "level": 3,
+        "definition": "always"
+    },
+    "진짜": {
+        "display": "진짜",
+        "type": "adverb",
+        "level": 3,
+        "definition": "really"
+    },
+    "건너편": {
+        "display": "건너편",
+        "type": "noun",
+        "level": 3,
+        "definition": "opposite side"
+    },
+    "꽃집": {
+        "display": "꽃집",
+        "type": "noun",
+        "level": 3,
+        "definition": "flower shop"
+    },
+    "사거리": {
+        "display": "사거리",
+        "type": "noun",
+        "level": 3,
+        "definition": "intersection"
+    },
+    "사진관": {
+        "display": "사진관",
+        "type": "noun",
+        "level": 3,
+        "definition": "photo shop",
+        "hanja": "寫眞관"
+    },
+    "주유소": {
+        "display": "주유소",
+        "type": "noun",
+        "level": 3,
+        "definition": "gas station"
+    },
+    "주차장": {
+        "display": "주차장",
+        "type": "noun",
+        "level": 3,
+        "definition": "parking lot",
+        "hanja": "駐車場"
+    },
+    "편의점": {
+        "display": "편의점",
+        "type": "noun",
+        "level": 3,
+        "definition": "convenience store",
+        "hanja": "便宜店"
+    },
+    "화장품가게": {
+        "display": "화장품 가게",
+        "type": "noun",
+        "level": 3,
+        "definition": "cosmetic products store",
+        "hanja": "化粧品 가게"
+    },
+    "스카프": {
+        "display": "스카프",
+        "type": "noun",
+        "level": 3,
+        "definition": "scarf"
+    },
+    "향수": {
+        "display": "향수",
+        "type": "noun",
+        "level": 3,
+        "definition": "perfume",
+        "hanja": "香水"
+    },
+    "기차역": {
+        "display": "기차역",
+        "type": "noun",
+        "level": 3,
+        "definition": "train station",
+        "hanja": "汽車역"
+    },
+    "신호등": {
+        "display": "신호등",
+        "type": "noun",
+        "level": 3,
+        "definition": "traffic sign",
+        "hanja": "信號燈"
+    },
+    "옆길": {
+        "display": "옆길",
+        "type": "noun",
+        "level": 3,
+        "definition": "side road"
+    },
+    "정문": {
+        "display": "정문",
+        "type": "noun",
+        "level": 3,
+        "definition": "front gate, main entrance",
+        "hanja": "正門"
+    },
+    "첫번째": {
+        "display": "첫 번째",
+        "type": "noun",
+        "level": 3,
+        "definition": "first"
+    },
+    "퇴근시간": {
+        "display": "퇴근시간",
+        "type": "noun",
+        "level": 3,
+        "definition": "time to get off of work",
+        "hanja": "퇴근時間"
+    },
+    "택시기사": {
+        "display": "택시 기사",
+        "type": "noun",
+        "level": 3,
+        "definition": "taxi driver"
+    },
+    "횡단보도": {
+        "display": "횡단 보도",
+        "type": "noun",
+        "level": 3,
+        "definition": "crosswalk",
+        "hanja": "橫斷步道"
+    },
+    "그러니까": {
+        "display": "그러니까",
+        "type": "adverb",
+        "alternateType": "conjunction",
+        "level": 3,
+        "definition": "so"
     },
     "비밀": {
         "display": "비밀",

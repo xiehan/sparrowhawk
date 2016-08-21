@@ -63,5 +63,21 @@
     "내다": true,
     "받다": true,
     "도착하다": true,
-    "여행하다": true
+    "여행하다": true,
+    "아니다": true,
+    "돌아오다": true,
+    "빨래하다": true,
+    "사업하다": true,
+    "정리하다": true,
+    "스트레칭하다": true,
+    "씻다": true,
+    "인사하다": true,
+    "나오다": true,
+    "뛰어내리다": true,
+    "고민하다": true,
+    "생각나다": true,
+    "초대하다": true,
+    "추천하다": true,
+    "들어가다": true,
+    "세우다": true
 }
