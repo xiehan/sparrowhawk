@@ -1122,6 +1122,24 @@
         "level": 1,
         "definition": "daytime"
     },
+    "토마토": {
+        "display": "토마토",
+        "type": "noun",
+        "level": 1,
+        "definition": "tomato"
+    },
+    "오렌지": {
+        "display": "오렌지",
+        "type": "noun",
+        "level": 1,
+        "definition": "orange"
+    },
+    "바나나": {
+        "display": "바나나",
+        "type": "noun",
+        "level": 1,
+        "definition": "banana"
+    },
     "배2": {
         "display": "배",
         "type": "noun",
@@ -2147,6 +2165,169 @@
         "type": "noun",
         "level": 2,
         "definition": "this year"
+    },
+    "과일": {
+        "display": "과일",
+        "type": "noun",
+        "level": 2,
+        "definition": "fruit"
+    },
+    "채소": {
+        "display": "채소",
+        "type": "noun",
+        "level": 2,
+        "definition": "vegetable"
+    },
+    "체리": {
+        "display": "체리",
+        "type": "noun",
+        "level": 2,
+        "definition": "cherry"
+    },
+    "딸기": {
+        "display": "딸기",
+        "type": "noun",
+        "level": 2,
+        "definition": "strawberry"
+    },
+    "수박": {
+        "display": "수박",
+        "type": "noun",
+        "level": 2,
+        "definition": "watermelon"
+    },
+    "파인애플": {
+        "display": "파인애플",
+        "type": "noun",
+        "level": 2,
+        "definition": "pineapple"
+    },
+    "배3": {
+        "display": "배",
+        "type": "noun",
+        "level": 2,
+        "definition": "pear"
+    },
+    "복숭아": {
+        "display": "복숭아",
+        "type": "noun",
+        "level": 2,
+        "definition": "peach"
+    },
+    "레몬": {
+        "display": "레몬",
+        "type": "noun",
+        "level": 2,
+        "definition": "lemon"
+    },
+    "감자": {
+        "display": "감자",
+        "type": "noun",
+        "level": 2,
+        "definition": "potato"
+    },
+    "샐러리": {
+        "display": "샐러리",
+        "type": "noun",
+        "level": 2,
+        "definition": "celery"
+    },
+    "콩": {
+        "display": "콩",
+        "type": "noun",
+        "level": 2,
+        "definition": "bean"
+    },
+    "호박": {
+        "display": "호박",
+        "type": "noun",
+        "level": 2,
+        "definition": "pumpkin"
+    },
+    "버섯": {
+        "display": "버섯",
+        "type": "noun",
+        "level": 2,
+        "definition": "mushroom"
+    },
+    "가지": {
+        "display": "가지",
+        "type": "noun",
+        "level": 2,
+        "definition": "eggplant"
+    },
+    "양배추": {
+        "display": "양배추",
+        "type": "noun",
+        "level": 2,
+        "definition": "cabbage"
+    },
+    "포도": {
+        "display": "포도",
+        "type": "noun",
+        "level": 2,
+        "definition": "grape",
+        "hanja": "葡萄"
+    },
+    "당근": {
+        "display": "당근",
+        "type": "noun",
+        "level": 2,
+        "definition": "carrot"
+    },
+    "상추": {
+        "display": "상추",
+        "type": "noun",
+        "level": 2,
+        "definition": "lettuce"
+    },
+    "옥수수": {
+        "display": "옥수수",
+        "type": "noun",
+        "level": 2,
+        "definition": "corn"
+    },
+    "피망": {
+        "display": "피망",
+        "type": "noun",
+        "level": 2,
+        "definition": "green pepper"
+    },
+    "양파": {
+        "display": "양파",
+        "type": "noun",
+        "level": 2,
+        "definition": "onion"
+    },
+    "오이": {
+        "display": "오이",
+        "type": "noun",
+        "level": 2,
+        "definition": "cucumber"
+    },
+    "시금치": {
+        "display": "시금치",
+        "type": "noun",
+        "level": 2,
+        "definition": "spinach"
+    },
+    "브로콜리": {
+        "display": "브로콜리",
+        "type": "noun",
+        "level": 2,
+        "definition": "broccoli"
+    },
+    "마늘": {
+        "display": "마늘",
+        "type": "noun",
+        "level": 2,
+        "definition": "garlic"
+    },
+    "칠리고추": {
+        "display": "칠리고추",
+        "type": "noun",
+        "level": 2,
+        "definition": "chili pepper"
     },
     "끝내다": {
         "display": "끝내다",
