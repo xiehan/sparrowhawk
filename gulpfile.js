@@ -23,6 +23,7 @@ var PATHS = {
         'node_modules/@angular/**/*',
         'node_modules/angular2-react-native/**/*',
         'node_modules/hammerjs/**/*',
+        'node_modules/react-native-material-kit/**/*',
         'node_modules/reflect-metadata/**/*',
         'node_modules/rxjs/**/*',
         'node_modules/zone.js/**/*',
@@ -38,9 +39,12 @@ gulp.task('clean', function (done) {
 gulp.task('!create', ['clean'], function (done) {
     executeInAppDir('react-native init ' + APP_NAME, done, true);
 });
-gulp.task('init', ['!create'], function () {
+gulp.task('!copy', function () {
     var copier = require('angular2-react-native/tools/copy-dependencies');
     return copier.doCopy(PATHS.modules, PATHS.app + '/node_modules');
+});
+gulp.task('init', ['!create', '!copy'], function (done) {
+    done();
 });
 
 
@@ -51,10 +55,16 @@ gulp.task('transpile', ['!assets'], function () {
     return ts2js([PATHS.sources.src, '!' + PATHS.sources.test], PATHS.app);
 });
 
-gulp.task('!launch.android', ['transpile'], function (done) {
+gulp.task('!installMaterialKit', ['!copy'], function (done) {
+    executeInAppDir('npm install --save react-native-material-kit', done);
+});
+gulp.task('!linkLibraries', ['!installMaterialKit'], function (done) {
+    executeInAppDir('rnpm link', done); // @TODO document that this should be installed globally (for now)
+});
+gulp.task('!launch.android', ['transpile', '!linkLibraries'], function (done) {
     executeInAppDir('react-native run-android', done);
 });
-gulp.task('!launch.ios', ['transpile'], function (done) {
+gulp.task('!launch.ios', ['transpile', '!linkLibraries'], function (done) {
     executeInAppDir('react-native run-ios', done);
 });
 gulp.task('!start.android', ['!launch.android'], function (neverDone) {

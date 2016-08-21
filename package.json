@@ -32,6 +32,7 @@
     "start:ios": "gulp start.ios",
     "start:android": "gulp start.android",
     "test": "gulp test.browser/ci",
+    "tdd": "gulp test.browser",
     "pree2e": "npm run webdriver:update -- --standalone",
     "e2e": "protractor",
     "e2e:ios": "npm run e2e -- test/protractor.conf.ios.dev.js",
