@@ -78,5 +78,7 @@ jspm_packages
 .node_repl_history
 
 
-## At least for now, don't commit built files
+## Don't commit built files
 dist/
+
+data/combined.json
