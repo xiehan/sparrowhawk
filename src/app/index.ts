@@ -1,4 +1,4 @@
 import { bootstrapReactNative } from 'angular2-react-native';
-import HelloModule from './module';
+import SparrowhawkModule from './module';
 
-bootstrapReactNative('sparrowhawk', HelloModule);
+bootstrapReactNative('sparrowhawk', SparrowhawkModule);
