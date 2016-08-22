@@ -77,7 +77,7 @@ gulp.task('!installMaterialKit', ['!copy'], function (done) {
     executeInAppDir('npm install --save react-native-material-kit', done);
 });
 gulp.task('!linkLibraries', ['!installMaterialKit'], function (done) {
-    executeInAppDir('rnpm link', done); // @TODO document that this should be installed globally (for now)
+    executeInAppDir('react-native link', done);
 });
 gulp.task('!copyIcons.android', function () {
     return gulp
