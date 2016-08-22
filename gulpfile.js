@@ -25,6 +25,7 @@ var PATHS = {
     modules: [
         'node_modules/@angular/**/*',
         'node_modules/angular2-react-native/**/*',
+        'node_modules/firebase/**/*',
         'node_modules/hammerjs/**/*',
         'node_modules/react-native-material-kit/**/*',
         'node_modules/reflect-metadata/**/*',
@@ -52,9 +53,7 @@ gulp.task('!copy', function () {
     var copier = require('angular2-react-native/tools/copy-dependencies');
     return copier.doCopy(PATHS.modules, PATHS.app + '/node_modules');
 });
-gulp.task('init', ['!create', '!copy'], function (done) {
-    done();
-});
+gulp.task('init', ['!create', '!copy']);
 
 
 gulp.task('!assets', function () {
@@ -110,6 +109,9 @@ gulp.task('start.android', ['!start.android', 'watch'], function (neverDone) {
 });
 gulp.task('start.ios', ['!launch.ios', 'watch'], function (neverDone) {
 });
+
+// This is a task I added for making sure compiled code etc. ends up in the right place, without running the app
+gulp.task('dryRun', ['!injectConfig', '!linkLibraries', '!copyIcons.android', '!copyIcons.ios']);
 
 /** ********************************************************************************/
 /** ***********************   UNIT TEST IN BROWSER   *******************************/
