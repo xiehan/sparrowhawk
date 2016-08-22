@@ -2,6 +2,8 @@
 var del = require('del');
 var gulp = require('gulp');
 var typescript = require('gulp-typescript');
+var env = require('gulp-env');
+var preprocess = require('gulp-preprocess');
 var watch = require('gulp-watch');
 var exec = require('child_process').exec;
 var karma = require('karma').Server;
@@ -19,6 +21,7 @@ var PATHS = {
     destination: 'dist',
     karma: 'dist/karma',
     app: 'dist/' + APP_NAME,
+    appSources: 'dist/' + APP_NAME + '/app',
     modules: [
         'node_modules/@angular/**/*',
         'node_modules/angular2-react-native/**/*',
@@ -60,6 +63,16 @@ gulp.task('!assets', function () {
 gulp.task('transpile', ['!assets'], function () {
     return ts2js([PATHS.sources.src, '!' + PATHS.sources.test], PATHS.app);
 });
+gulp.task('!injectConfig', ['transpile'], function () {
+    var configVariables = env({
+        file: 'config.json',
+    });
+    return gulp.src([PATHS.appSources + '/**/*.js'])
+        .pipe(configVariables)
+        .pipe(preprocess())
+        .pipe(configVariables.reset)
+        .pipe(gulp.dest(PATHS.appSources));
+});
 
 gulp.task('!installMaterialKit', ['!copy'], function (done) {
     executeInAppDir('npm install --save react-native-material-kit', done);
@@ -72,7 +85,7 @@ gulp.task('!copyIcons.android', function () {
         .src(PATHS.icons.android, { base: PATHS.icons.androidBase })
         .pipe(gulp.dest(PATHS.app + '/android/app/src/main/res/'));
 });
-gulp.task('!launch.android', ['transpile', '!linkLibraries', '!copyIcons.android'], function (done) {
+gulp.task('!launch.android', ['!injectConfig', '!linkLibraries', '!copyIcons.android'], function (done) {
     executeInAppDir('react-native run-android', done);
 });
 gulp.task('!copyIcons.ios', function () {
@@ -80,7 +93,7 @@ gulp.task('!copyIcons.ios', function () {
         .src(PATHS.icons.ios, { base: PATHS.icons.iosBase })
         .pipe(gulp.dest(PATHS.app + '/ios/' + APP_NAME + '/Images.xcassets'));
 });
-gulp.task('!launch.ios', ['transpile', '!linkLibraries', '!copyIcons.ios'], function (done) {
+gulp.task('!launch.ios', ['!injectConfig', '!linkLibraries', '!copyIcons.ios'], function (done) {
     executeInAppDir('react-native run-ios', done);
 });
 gulp.task('!start.android', ['!launch.android'], function (neverDone) {

@@ -81,4 +81,5 @@ jspm_packages
 ## Don't commit built files
 dist/
 
+config.json
 data/combined.json

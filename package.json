@@ -44,6 +44,7 @@
   },
   "dependencies": {
     "angular2-react-native": "0.0.1-alpha.15",
+    "firebase": "^3.3.0",
     "react": "~15.2.1",
     "react-native-material-kit": "^0.3.2"
   },
@@ -51,7 +52,9 @@
     "codelyzer": "0.0.28",
     "del": "^1.2.0",
     "gulp": "^3.9.0",
+    "gulp-env": "^0.4.0",
     "gulp-filter": "^3.0.1",
+    "gulp-preprocess": "^2.0.0",
     "gulp-strip-comments": "^2.2.1",
     "gulp-typescript": "^2.11.0",
     "gulp-watch": "~4.3.5",
