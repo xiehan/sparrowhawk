@@ -2512,6 +2512,42 @@
         "definition": "location",
         "hanja": "位置"
     },
+    "파": {
+        "display": "파",
+        "type": "noun",
+        "level": 2,
+        "definition": "scallion"
+    },
+    "요리": {
+        "display": "요리",
+        "type": "noun",
+        "level": 2,
+        "definition": "cooking",
+        "hanja": "料理"
+    },
+    "한식집": {
+        "display": "한식집",
+        "type": "noun",
+        "level": 2,
+        "definition": "Korean restaurant",
+        "hanja": "韓食집"
+    },
+    "더": {
+        "display": "더",
+        "type": "adverb",
+        "level": 2,
+        "definition": "more"
+    },
+    "기쁘다": {
+        "display": "기쁘다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 2,
+        "definition": "to be happy, glad",
+        "commonConjugation": "기뻐요"
+    },
     "끝내다": {
         "display": "끝내다",
         "type": "verb",
@@ -3615,6 +3651,176 @@
         "type": "phrase",
         "level": 3,
         "definition": "Come on in."
+    },
+    "간장": {
+        "display": "간장",
+        "type": "noun",
+        "level": 3,
+        "definition": "soy sauce"
+    },
+    "설탕": {
+        "display": "설탕",
+        "type": "noun",
+        "level": 3,
+        "definition": "sugar",
+        "hanja": "雪糖"
+    },
+    "소고기": {
+        "display": "소고기",
+        "type": "noun",
+        "level": 3,
+        "definition": "beef"
+    },
+    "배달": {
+        "display": "배달",
+        "type": "noun",
+        "level": 3,
+        "definition": "delivery",
+        "hanja": "配達"
+    },
+    "약국": {
+        "display": "약국",
+        "type": "noun",
+        "level": 3,
+        "definition": "pharmacy",
+        "hanja": "藥局"
+    },
+    "그릇": {
+        "display": "그릇",
+        "type": "noun",
+        "alternateType": "counter",
+        "takesNumbers": "native",
+        "level": 3,
+        "definition": "bowl"
+    },
+    "날마다": {
+        "display": "날마다",
+        "type": "adverb",
+        "level": 3,
+        "definition": "every day"
+    },
+    "먼저": {
+        "display": "먼저",
+        "type": "adverb",
+        "level": 3,
+        "definition": "first of all, in advance"
+    },
+    "굽다": {
+        "display": "굽다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "level": 3,
+        "definition": "to grill",
+        "commonConjugation": "구워요"
+    },
+    "넣다": {
+        "display": "넣다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to put (something in)",
+        "commonConjugation": "넣어요"
+    },
+    "섞다": {
+        "display": "섞다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to mix",
+        "commonConjugation": "섞어요"
+    },
+    "안내하다": {
+        "display": "안내하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to guide",
+        "commonConjugation": "안내해요"
+    },
+    "부탁하다": {
+        "display": "부탁하다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to ask a favor, to request",
+        "hanja": "付託하다",
+        "commonConjugation": "부탁해요"
+    },
+    "시키다": {
+        "display": "시키다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to order",
+        "commonConjugation": "시켜요"
+    },
+    "갖다주다": {
+        "display": "갖다 주다",
+        "type": "verb",
+        "subtype": "action",
+        "regular": true,
+        "level": 3,
+        "definition": "to bring",
+        "commonConjugation": "갖다줘요"
+    },
+    "달다": {
+        "display": "달다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㄹ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be sweet",
+        "commonConjugation": "달아요"
+    },
+    "맵다": {
+        "display": "맵다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": false,
+        "irregularType": "ㅂ 불규칙 동사",
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be spicy",
+        "commonConjugation": "매워요"
+    },
+    "시다": {
+        "display": "시다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be sour",
+        "commonConjugation": "셔요"
+    },
+    "쓰다3": {
+        "display": "쓰다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be bitter",
+        "commonConjugation": "써요"
+    },
+    "기름이많다": {
+        "display": "기름이 많다",
+        "type": "verb",
+        "subtype": "status",
+        "regular": true,
+        "alternateType": "adjective",
+        "level": 3,
+        "definition": "to be oily",
+        "commonConjugation": "기름이 많아요"
     },
     "비밀": {
         "display": "비밀",

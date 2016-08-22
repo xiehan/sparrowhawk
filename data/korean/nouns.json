@@ -280,5 +280,14 @@
     "하숙집": true,
     "광고": true,
     "발음": true,
-    "가격": true
+    "가격": true,
+    "파": true,
+    "요리": true,
+    "한식집": true,
+    "간장": true,
+    "설탕": true,
+    "소고기": true,
+    "배달": true,
+    "약국": true,
+    "그릇": true
 }
