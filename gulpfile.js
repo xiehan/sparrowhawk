@@ -28,6 +28,12 @@ var PATHS = {
         'node_modules/rxjs/**/*',
         'node_modules/zone.js/**/*',
     ],
+    icons: {
+        android: 'icons/android/**/*.png',
+        androidBase: './icons/android', // paths should be relative to this
+        ios: 'icons/ios/AppIcon.appiconset/**/*',
+        iosBase: './icons/ios', // paths should be relative to this
+    },
 };
 
 /** ********************************************************************************/
@@ -61,10 +67,20 @@ gulp.task('!installMaterialKit', ['!copy'], function (done) {
 gulp.task('!linkLibraries', ['!installMaterialKit'], function (done) {
     executeInAppDir('rnpm link', done); // @TODO document that this should be installed globally (for now)
 });
-gulp.task('!launch.android', ['transpile', '!linkLibraries'], function (done) {
+gulp.task('!copyIcons.android', function () {
+    return gulp
+        .src(PATHS.icons.android, { base: PATHS.icons.androidBase })
+        .pipe(gulp.dest(PATHS.app + '/android/app/src/main/res/'));
+});
+gulp.task('!launch.android', ['transpile', '!linkLibraries', '!copyIcons.android'], function (done) {
     executeInAppDir('react-native run-android', done);
 });
-gulp.task('!launch.ios', ['transpile', '!linkLibraries'], function (done) {
+gulp.task('!copyIcons.ios', function () {
+    return gulp
+        .src(PATHS.icons.ios, { base: PATHS.icons.iosBase })
+        .pipe(gulp.dest(PATHS.app + '/ios/' + APP_NAME + '/Images.xcassets'));
+});
+gulp.task('!launch.ios', ['transpile', '!linkLibraries', '!copyIcons.ios'], function (done) {
     executeInAppDir('react-native run-ios', done);
 });
 gulp.task('!start.android', ['!launch.android'], function (neverDone) {
