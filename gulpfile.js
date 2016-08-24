@@ -27,7 +27,6 @@ var PATHS = {
         'node_modules/angular2-react-native/**/*',
         'node_modules/firebase/**/*',
         'node_modules/hammerjs/**/*',
-        'node_modules/react-native-material-kit/**/*',
         'node_modules/reflect-metadata/**/*',
         'node_modules/rxjs/**/*',
         'node_modules/zone.js/**/*',
@@ -56,7 +55,10 @@ gulp.task('!copy', function () {
 gulp.task('init', ['!create', '!copy']);
 
 
-gulp.task('!assets', function () {
+gulp.task('!cleanAppSources', function (done) {
+    del([PATHS.appSources], done);
+});
+gulp.task('!assets', ['!cleanAppSources'], function () {
     return gulp.src(PATHS.sources.assets, { base: './src' }).pipe(gulp.dest(PATHS.app));
 });
 gulp.task('transpile', ['!assets'], function () {
