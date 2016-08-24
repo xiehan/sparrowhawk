@@ -30,9 +30,10 @@ System.config(
     {
         defaultJSExtensions: true,
         map: {
-            rxjs: 'base/node_modules/rxjs',
             '@angular': 'base/node_modules/@angular',
+            firebase: 'base/node_modules/firebase',
             'react-native': 'base/node_modules/angular2-react-native/test_helpers/mock_react_native.js',
+            rxjs: 'base/node_modules/rxjs',
         },
         packages: {
             'angular2-react-native': {
@@ -66,6 +67,10 @@ System.config(
             '@angular/router-deprecated': {
                 main: 'index.js',
                 defaultExtension: 'js',
+            },
+            firebase: {
+                defaultExtension: 'js',
+                main: 'firebase-react-native.js',
             },
             rxjs: {
                 defaultExtension: 'js',

@@ -58,13 +58,13 @@ gulp.task('init', ['!create', '!copy']);
 gulp.task('!cleanAppSources', function (done) {
     del([PATHS.appSources], done);
 });
-gulp.task('!assets', ['!cleanAppSources'], function () {
+gulp.task('!assets', function () {
     return gulp.src(PATHS.sources.assets, { base: './src' }).pipe(gulp.dest(PATHS.app));
 });
-gulp.task('transpile', ['!assets'], function () {
+gulp.task('!transpile', ['!assets'], function () {
     return ts2js([PATHS.sources.src, '!' + PATHS.sources.test], PATHS.app);
 });
-gulp.task('!injectConfig', ['transpile'], function () {
+gulp.task('!injectConfig', ['!transpile'], function () {
     var configVariables = env({
         file: 'config.json',
     });
@@ -74,6 +74,7 @@ gulp.task('!injectConfig', ['transpile'], function () {
         .pipe(configVariables.reset)
         .pipe(gulp.dest(PATHS.appSources));
 });
+gulp.task('transpile', ['!injectConfig']);
 
 gulp.task('!installMaterialKit', ['!copy'], function (done) {
     executeInAppDir('npm install --save react-native-material-kit', done);
@@ -86,7 +87,7 @@ gulp.task('!copyIcons.android', function () {
         .src(PATHS.icons.android, { base: PATHS.icons.androidBase })
         .pipe(gulp.dest(PATHS.app + '/android/app/src/main/res/'));
 });
-gulp.task('!launch.android', ['!injectConfig', '!linkLibraries', '!copyIcons.android'], function (done) {
+gulp.task('!launch.android', ['!cleanAppSources', 'transpile', '!linkLibraries', '!copyIcons.android'], function (done) {
     executeInAppDir('react-native run-android', done);
 });
 gulp.task('!copyIcons.ios', function () {
@@ -94,7 +95,7 @@ gulp.task('!copyIcons.ios', function () {
         .src(PATHS.icons.ios, { base: PATHS.icons.iosBase })
         .pipe(gulp.dest(PATHS.app + '/ios/' + APP_NAME + '/Images.xcassets'));
 });
-gulp.task('!launch.ios', ['!injectConfig', '!linkLibraries', '!copyIcons.ios'], function (done) {
+gulp.task('!launch.ios', ['!cleanAppSources', 'transpile', '!linkLibraries', '!copyIcons.ios'], function (done) {
     executeInAppDir('react-native run-ios', done);
 });
 gulp.task('!start.android', ['!launch.android'], function (neverDone) {
@@ -103,7 +104,7 @@ gulp.task('!start.android', ['!launch.android'], function (neverDone) {
     }
 });
 gulp.task('watch', function (neverDone) {
-    watch([PATHS.sources.src], function () {
+    watch([PATHS.sources.src, '!' + PATHS.sources.test], function () {
         runSequence('transpile');
     });
 });
@@ -113,7 +114,7 @@ gulp.task('start.ios', ['!launch.ios', 'watch'], function (neverDone) {
 });
 
 // This is a task I added for making sure compiled code etc. ends up in the right place, without running the app
-gulp.task('dryRun', ['!injectConfig', '!linkLibraries', '!copyIcons.android', '!copyIcons.ios']);
+gulp.task('dryRun', ['!cleanAppSources', 'transpile', '!linkLibraries', '!copyIcons.android', '!copyIcons.ios']);
 
 /** ********************************************************************************/
 /** ***********************   UNIT TEST IN BROWSER   *******************************/
@@ -121,9 +122,20 @@ gulp.task('dryRun', ['!injectConfig', '!linkLibraries', '!copyIcons.android', '!
 gulp.task('clean.test', function (done) {
     del([PATHS.karma], done);
 });
-gulp.task('ts2system', ['clean.test'], function () {
+gulp.task('!ts2system', ['clean.test'], function () {
     return ts2js([PATHS.sources.src, PATHS.sources.test], PATHS.karma, true);
 });
+gulp.task('!injectTestConfig', ['!ts2system'], function () {
+    var configVariables = env({
+        file: 'config.json',
+    });
+    return gulp.src([PATHS.karma + '/**/*.js'])
+        .pipe(configVariables)
+        .pipe(preprocess())
+        .pipe(configVariables.reset)
+        .pipe(gulp.dest(PATHS.karma));
+});
+gulp.task('ts2system', ['!injectTestConfig']);
 
 gulp.task('karma-launch', function () {
     new karma({
