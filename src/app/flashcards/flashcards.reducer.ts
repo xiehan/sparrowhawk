@@ -51,7 +51,6 @@ const flashCardsReducer: ActionReducer<IFlashCardsState> = (state: IFlashCardsSt
             });
 
         case ActionTypes.AUTO_ADVANCE_SPEED_CHANGED:
-            console.log('AUTO_ADVANCE_SPEED_CHANGED', action.payload);
             return Object.assign({}, state, {
                 autoAdvanceSpeed: action.payload,
             });
