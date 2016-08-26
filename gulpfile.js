@@ -24,6 +24,7 @@ var PATHS = {
     appSources: 'dist/' + APP_NAME + '/app',
     modules: [
         'node_modules/@angular/**/*',
+        'node_modules/@ngrx/**/*',
         'node_modules/angular2-react-native/**/*',
         'node_modules/firebase/**/*',
         'node_modules/hammerjs/**/*',

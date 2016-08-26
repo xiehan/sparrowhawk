@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 /* tslint:disable no-var-requires */
-const firebase = require('firebase/app');
-require('firebase/database');
+const firebase = require('firebase');
 /* tslint:enable no-var-requires */
 
 
@@ -11,6 +10,26 @@ type FirebaseConfig = {
     authDomain: string,
     storageBucket: string,
 }
+
+/*
+ * Ideally the below should be inside the class itself, but there's a scoping bug with Firebase:
+ * https://github.com/davideast/firebase-react-native-sample/issues/14#issuecomment-239358828
+ */
+const firebaseConfig: FirebaseConfig = {
+    apiKey: '/* @echo FIREBASE_API_KEY */',
+    databaseURL: '/* @echo FIREBASE_DATABASE_URL */',
+    // not used at the moment, but just in case we decide to use them in the future:
+    authDomain: '/* @echo FIREBASE_AUTH_DOMAIN */',
+    storageBucket: '/* @echo FIREBASE_STORAGE_BUCKET */',
+};
+let firebaseApp: any;
+try {
+    firebaseApp = firebase.initializeApp(firebaseConfig);
+    console.log('Firebase app initialized');
+} catch (e) {
+    console.log('JS error while calling firebase.initializeApp', e);
+}
+
 
 @Injectable()
 /**
@@ -23,24 +42,11 @@ type FirebaseConfig = {
  * into an API that is much less likely to change in the future.
  */
 export default class FirebaseService {
-    private firebaseConfig: FirebaseConfig;
-    private firebaseApp: any;
+    // private firebaseConfig: FirebaseConfig;
+    // private firebaseApp: any;
     private firebaseDatabase: any;
-    private isInitialized: boolean = false;
+    protected isInitialized: boolean = false;
 
-
-    /**
-     * Constructs an instance of the service for consumption
-     */
-    constructor() {
-        this.firebaseConfig = {
-            apiKey: '/* @echo FIREBASE_API_KEY */',
-            databaseURL: '/* @echo FIREBASE_DATABASE_URL */',
-            // not used at the moment, but just in case we decide to use them in the future:
-            authDomain: '/* @echo FIREBASE_AUTH_DOMAIN */',
-            storageBucket: '/* @echo FIREBASE_STORAGE_BUCKET */',
-        };
-    }
 
     /**
      * Sets up the service, connecting to the Firebase API using their JavaScript SDK and
@@ -49,9 +55,13 @@ export default class FirebaseService {
      */
     public initialize(): void {
         if (!this.isInitialized) {
-            this.firebaseApp = firebase.initializeApp(this.firebaseConfig);
-            this.firebaseDatabase = firebase.database();
-            this.isInitialized = true;
+            try {
+                // this.firebaseApp = firebase.initializeApp(firebaseConfig);
+                this.firebaseDatabase = firebaseApp.database();
+                this.isInitialized = true;
+            } catch (e) {
+                console.log('JS error while initializing Firebase connection', e);
+            }
         }
     }
 
@@ -64,6 +74,9 @@ export default class FirebaseService {
      */
     public doesDatabaseKeyExist(key: string): Promise<boolean> {
         this.doIsInitializedCheck();
+
+        console.log('Checking Firebase database for existence of key', key);
+
         return this.firebaseDatabase.ref(key)
             .once('value')
             .then((snapshot: any) => snapshot.val() !== null);
@@ -78,6 +91,9 @@ export default class FirebaseService {
      */
     public readDataFromDatabase(key: string): Promise<any> {
         this.doIsInitializedCheck();
+
+        console.log('Reading from Firebase database at key', key);
+
         return this.firebaseDatabase.ref(key)
             .once('value')
             .then((snapshot: any) => snapshot.val());
@@ -86,7 +102,7 @@ export default class FirebaseService {
     /**
      * Helper function to check if `initialize()` has been called. If not, throws an Error.
      */
-    private doIsInitializedCheck(): void {
+    protected doIsInitializedCheck(): void {
         if (!this.isInitialized) {
             throw new Error('FirebaseService has not been initialized. Please call initialize()' +
                 ' in an appropriate location in your code before calling this function.');

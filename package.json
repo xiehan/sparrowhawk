@@ -43,8 +43,11 @@
     "webdriver:start": "webdriver-manager start"
   },
   "dependencies": {
+    "@angular/router-deprecated": "^2.0.0-rc.2",
+    "@ngrx/core": "^1.0.2",
+    "@ngrx/store": "^2.1.2",
     "angular2-react-native": "0.0.1-alpha.15",
-    "firebase": "^3.3.0",
+    "firebase": "3.2.1",
     "react": "~15.2.1",
     "react-native-material-kit": "^0.3.2"
   },

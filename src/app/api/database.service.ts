@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import FirebaseService from './firebase.service';
+// import FirebaseService from './firebase.service';
+import FirebaseFakeService from './firebase-fake.service';
 
 
 @Injectable()
@@ -17,7 +18,7 @@ export default class DatabaseService {
      *
      * @param {FirebaseService} firebaseService
      */
-    constructor(private firebaseService: FirebaseService) {}
+    constructor(private firebaseService: FirebaseFakeService) {}
 
     /**
      * Initializes the service, establishing the connection to Firebase using the
@@ -35,5 +36,40 @@ export default class DatabaseService {
      */
     public checkIfLanguageIsAvailable(language: string): Promise<boolean> {
         return this.firebaseService.doesDatabaseKeyExist(`languages/${language.toLowerCase()}`);
+    }
+
+    /**
+     * Check to see what types of words (e.g. nouns, verbs, etc.) are available
+     * for the chosen language.
+     *
+     * @param {string} language
+     * @returns {Promise<any>}
+     */
+    public getAvailableWordTypesForLanguage(language: string): Promise<any> {
+        return this.firebaseService.readDataFromDatabase(`${language.toLowerCase()}/labels`);
+    }
+
+    /**
+     * Gets all words of the given type (e.g. nouns, verbs) from the chosen language.
+     *
+     * @param {string} wordType
+     * @param {string} language
+     * @returns {Promise<any>}
+     */
+    public getAllWordsOfType(wordType: string, language: string): Promise<any> {
+        return this.firebaseService
+            .readDataFromDatabase(`${language.toLowerCase()}/${wordType.toLowerCase()}s`);
+    }
+
+    /**
+     * Looks up the given word in the dictionary of the chosen language.
+     *
+     * @param {string} word
+     * @param {string} language
+     * @returns {Promise<any>}
+     */
+    public lookUpWordInDictionary(word: string, language: string): Promise<any> {
+        return this.firebaseService
+            .readDataFromDatabase(`${language.toLowerCase()}/dictionary/${word}`);
     }
 }

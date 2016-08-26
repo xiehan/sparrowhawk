@@ -1,6 +1,6 @@
 /* global describe, beforeAll, before, it, expect, wdBrowser */
 
-describe('Hello', () => {
+describe('Main', () => {
     beforeAll(() => wdBrowser.setImplicitWaitTimeout(3000));
 
     it('should render', () => wdBrowser.sleep(3000)

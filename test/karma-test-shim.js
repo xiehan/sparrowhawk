@@ -31,6 +31,7 @@ System.config(
         defaultJSExtensions: true,
         map: {
             '@angular': 'base/node_modules/@angular',
+            '@ngrx': 'base/node_modules/@ngrx',
             firebase: 'base/node_modules/firebase',
             'react-native': 'base/node_modules/angular2-react-native/test_helpers/mock_react_native.js',
             rxjs: 'base/node_modules/rxjs',
@@ -67,6 +68,14 @@ System.config(
             '@angular/router-deprecated': {
                 main: 'index.js',
                 defaultExtension: 'js',
+            },
+            '@ngrx/core': {
+                main: 'index.js',
+                format: 'cjs'
+            },
+            '@ngrx/store': {
+                main: 'index.js',
+                format: 'cjs'
             },
             firebase: {
                 defaultExtension: 'js',
