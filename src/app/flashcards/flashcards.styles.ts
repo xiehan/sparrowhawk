@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-// import theme from '../ui/material.helper';
 
 
 const flashCardsStylesheet = StyleSheet.create({
@@ -9,7 +8,6 @@ const flashCardsStylesheet = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'stretch',
         padding: 16,
-        backgroundColor: 'rgba(0, 0, 0, 0.56)',
     },
     loading: {
         justifyContent: 'center',

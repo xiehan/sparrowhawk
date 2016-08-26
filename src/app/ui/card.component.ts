@@ -85,14 +85,14 @@ export default class CardComponent implements OnInit, OnChanges {
                     width: 2,
                 },
                 elevation: 4,
-                color: 'black',
+                color: COLOR_PALETTE['primary-text-color'],
                 textAlign: 'left',
                 textAlignVertical: 'center',
             },
             content: {
                 // flex: 3,
                 padding: 16,
-                color: 'black',
+                color: COLOR_PALETTE['primary-text-color'],
                 fontSize: 14,
             },
             actions: {

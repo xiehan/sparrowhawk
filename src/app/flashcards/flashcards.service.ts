@@ -45,7 +45,7 @@ export default class FlashCardsService {
 
         this.state$.select((s: IFlashCardsState) => s.wordList)
             .subscribe((wordList: Array<any>) => {
-                this.hasWordList = wordList && wordList.length;
+                this.hasWordList = wordList && !!wordList.length;
             });
     }
 

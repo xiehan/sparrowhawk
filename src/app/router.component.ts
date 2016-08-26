@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
+import { LocationStrategy } from '@angular/common';
 import { RouteConfig } from '@angular/router-deprecated';
 import { StyleSheet } from 'react-native';
+import { BackAndroid } from 'react-native/Libraries/Utilities/BackAndroid.android.js';
+import { isAndroid } from 'angular2-react-native/wrapper/wrapper';
 import FlashCardsComponent from './flashcards/flashcards.component';
 import MainComponent from './main/main.component';
 import SettingsComponent from './settings/settings.component';
@@ -23,7 +26,7 @@ import SettingsComponent from './settings/settings.component';
 export default class RouterComponent {
     public styles: any;
 
-    constructor() {
+    constructor(private locationStrategy: LocationStrategy) {
         this.styles = StyleSheet.create({
             container: {
                 flex: 1,
@@ -33,5 +36,15 @@ export default class RouterComponent {
                 backgroundColor: '#EEEEEE',
             },
         });
+
+        if (isAndroid()) {
+            BackAndroid.addEventListener('hardwareBackPress', () => {
+                if (this.locationStrategy.path().length > 1) {
+                    this.locationStrategy.back();
+                    return true;
+                }
+                return false;
+            });
+        }
     }
 }

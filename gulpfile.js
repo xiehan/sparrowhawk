@@ -78,7 +78,9 @@ gulp.task('!injectConfig', ['!transpile'], function () {
 gulp.task('transpile', ['!injectConfig']);
 
 gulp.task('!installMaterialKit', ['!copy'], function (done) {
-    executeInAppDir('npm install --save react-native-material-kit', done);
+    // I haven't gotten anything useful out of this, so I'm commenting it out for now
+    // executeInAppDir('npm install --save react-native-material-kit', done);
+    done();
 });
 gulp.task('!linkLibraries', ['!installMaterialKit'], function (done) {
     executeInAppDir('react-native link', done);
