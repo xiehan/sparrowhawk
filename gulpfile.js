@@ -83,7 +83,9 @@ gulp.task('!installMaterialKit', ['!copy'], function (done) {
     done();
 });
 gulp.task('!linkLibraries', ['!installMaterialKit'], function (done) {
-    executeInAppDir('react-native link', done);
+    // This seems to be causing problems even if there's nothing to install :/
+    // executeInAppDir('react-native link', done);
+    done();
 });
 gulp.task('!copyIcons.android', function () {
     return gulp
