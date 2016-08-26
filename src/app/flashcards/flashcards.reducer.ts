@@ -26,16 +26,17 @@ const flashCardsReducer: ActionReducer<IFlashCardsState> = (state: IFlashCardsSt
             });
 
         case ActionTypes.WORD_TYPE_INCLUSION_TOGGLED:
-            let found = false;
+            let foundIndex = -1;
             const selectedWordTypes = state.selectedWordTypes
-                .map((s) => {
+                .map((s, i) => {
                     if (s === action.payload) {
-                        found = true;
-                        return null;
+                        foundIndex = i;
                     }
                     return s;
                 });
-            if (!found) {
+            if (foundIndex >= 0) {
+                delete selectedWordTypes[foundIndex];
+            } else {
                 selectedWordTypes.push(action.payload);
             }
 
