@@ -37,7 +37,7 @@ import CompletedScreenComponent from './completed-screen.component';
 })
 export default class FlashCardsComponent implements OnInit {
     public styles: any;
-    public spinnerColor: string = COLOR_PALETTE['accent-color'];
+    public spinnerColor: string = COLOR_PALETTE['dark-primary-color'];
     public isLoading$: Observable<boolean>;
     public wordTypeTranslationMap$: Observable<any>;
     public currentWord$: Observable<any>;

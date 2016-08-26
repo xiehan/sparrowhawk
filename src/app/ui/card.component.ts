@@ -68,7 +68,6 @@ export default class CardComponent implements OnInit, OnChanges {
     private updateStyles(): void {
         this.styleSheet = StyleSheet.create({
             container: {
-                // width: 100,
                 padding: 0,
                 margin: 16,
                 flex: 1,
@@ -90,10 +89,10 @@ export default class CardComponent implements OnInit, OnChanges {
                 textAlignVertical: 'center',
             },
             content: {
-                // flex: 3,
                 padding: 16,
                 color: COLOR_PALETTE['primary-text-color'],
                 fontSize: 14,
+                minHeight: 150,
             },
             actions: {
                 flex: 1,

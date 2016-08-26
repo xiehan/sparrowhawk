@@ -5,11 +5,6 @@
  * @property {boolean} isLanguageSelected
  * @property {string} selectedLanguage
  */
-/**
- * The initial state (and general structure) of the main store.
- *
- * @type {MainState}
- */
 interface IMainState {
     isKoreanAvailable: boolean;
     isJapaneseAvailable: boolean;
@@ -17,6 +12,11 @@ interface IMainState {
     selectedLanguage: string;
 }
 
+/**
+ * The initial state (and general structure) of the main store.
+ *
+ * @type {MainState}
+ */
 export const initialState: IMainState = Object.freeze({
     isKoreanAvailable: false,
     isJapaneseAvailable: false,

@@ -59,12 +59,6 @@ export default class SettingsService {
         this.getAvailableWordTypes();
     }
 
-    public start(): void {
-        if (this.isAbleToStart) {
-            this.router.navigateByUrl('/flashcards');
-        }
-    }
-
     public toggleInclusionOfWordType(wordType: string): void {
         this.store.dispatch(SettingsActions.toggleInclusionOfWordType(wordType));
 
@@ -78,6 +72,24 @@ export default class SettingsService {
                 return v;
             });
         this.atLeastOneWordTypeSelected$.next(atLeastOneWordTypeSelected);
+    }
+
+    public setNumberOfCards(numberOfCards: number): void {
+        this.store.dispatch(SettingsActions.setNumberOfCards(numberOfCards));
+    }
+
+    public setAutoAdvanceSpeed(autoAdvanceSpeed: number): void {
+        this.store.dispatch(SettingsActions.setAutoAdvanceSpeed(autoAdvanceSpeed));
+    }
+
+    public start(): void {
+        if (this.isAbleToStart) {
+            this.router.navigateByUrl('/flashcards');
+        }
+    }
+
+    public goBack(): void {
+        this.router.navigateByUrl('/');
     }
 
     private getAvailableWordTypes(): void {

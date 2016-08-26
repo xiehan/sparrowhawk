@@ -4,6 +4,8 @@ export default class ActionTypes {
     public static LANGUAGE_SELECTED: string = 'LANGUAGE_SELECTED';
     public static AVAILABLE_WORD_TYPES_LOADED: string = 'AVAILABLE_WORD_TYPES_LOADED';
     public static WORD_TYPE_INCLUSION_TOGGLED: string = 'WORD_TYPE_INCLUSION_TOGGLED';
+    public static NUMBER_OF_CARDS_CHANGED: string = 'NUMBER_OF_CARDS_CHANGED';
+    public static AUTO_ADVANCE_SPEED_CHANGED: string = 'AUTO_ADVANCE_SPEED_CHANGED';
     public static WORD_LIST_LOADED: string = 'WORD_LIST_LOADED';
     public static WORD_LIST_SHUFFLED: string = 'WORD_LIST_SHUFFLED';
     public static WORD_LIST_CLEARED: string = 'WORD_LIST_CLEARED';

@@ -57,6 +57,16 @@ const settingsReducer: ActionReducer<ISettingsState> = (state: ISettingsState = 
                 });
             return state;
 
+        case ActionTypes.NUMBER_OF_CARDS_CHANGED:
+            return Object.assign({}, state, {
+                numberOfCards: action.payload,
+            });
+
+        case ActionTypes.AUTO_ADVANCE_SPEED_CHANGED:
+            return Object.assign({}, state, {
+                autoAdvanceSpeed: action.payload,
+            });
+
         default:
             return state;
     }

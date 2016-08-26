@@ -16,4 +16,18 @@ export default class SettingsActions {
             payload: wordType,
         };
     }
+
+    public static setNumberOfCards(numberOfCards: number): Action {
+        return {
+            type: ActionTypes.NUMBER_OF_CARDS_CHANGED,
+            payload: numberOfCards,
+        };
+    }
+
+    public static setAutoAdvanceSpeed(autoAdvanceTime: number): Action {
+        return {
+            type: ActionTypes.AUTO_ADVANCE_SPEED_CHANGED,
+            payload: autoAdvanceTime,
+        };
+    }
 }

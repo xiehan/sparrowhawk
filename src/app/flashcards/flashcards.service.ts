@@ -6,7 +6,7 @@ import IAppState from '../app.state';
 import DatabaseService from '../api/database.service';
 import shuffle from '../utils/shuffle';
 import FlashCardsActions from './flashcards.actions';
-import IFlashCardsState from './flashcards.state';
+import IFlashCardsState, { initialState } from './flashcards.state';
 
 
 @Injectable()
@@ -19,6 +19,11 @@ export default class FlashCardsService {
     private selectedLanguage: string;
     private selectedWordTypes: Array<string>;
     private hasWordList: boolean = false;
+    private currentCardIsRevealed: boolean = false;
+    private numberOfCards: number = initialState.numberOfCards;
+    private autoAdvanceSpeed: number = initialState.autoAdvanceSpeed;
+
+    private autoAdvancer: any;
 
 
     /**
@@ -46,6 +51,32 @@ export default class FlashCardsService {
         this.state$.select((s: IFlashCardsState) => s.wordList)
             .subscribe((wordList: Array<any>) => {
                 this.hasWordList = wordList && !!wordList.length;
+
+                if (this.hasWordList) {
+                    this.setUpAutoAdvance(false);
+                }
+            });
+
+        this.state$.select((s: IFlashCardsState) => s.shouldRevealCard)
+            .subscribe((shouldRevealCard: boolean) => {
+                this.currentCardIsRevealed = shouldRevealCard;
+            });
+
+        this.state$.select((s: IFlashCardsState) => s.numberOfCards)
+            .subscribe((numberOfCards: number) => {
+                this.numberOfCards = numberOfCards;
+            });
+
+        this.state$.select((s: IFlashCardsState) => s.autoAdvanceSpeed)
+            .subscribe((autoAdvanceSpeed: number) => {
+                this.autoAdvanceSpeed = autoAdvanceSpeed;
+            });
+
+        this.state$.select((s: IFlashCardsState) => s.hasCompletedAllCards)
+            .subscribe((hasCompletedAllCards: boolean) => {
+                if (hasCompletedAllCards) {
+                    this.stopAutoAdvance();
+                }
             });
     }
 
@@ -58,18 +89,26 @@ export default class FlashCardsService {
     }
 
     public revealFlashCard(): void {
+        this.setUpAutoAdvance(true);
+
         this.store.dispatch(FlashCardsActions.revealFlashCard());
     }
 
     public advanceFlashCard(selfReportedMissedWord?: boolean): void {
+        this.setUpAutoAdvance(false);
+
         this.store.dispatch(FlashCardsActions.advanceFlashCard(selfReportedMissedWord));
     }
 
     public startOver(): void {
+        this.stopAutoAdvance();
+
         this.store.dispatch(FlashCardsActions.shuffleWordList());
     }
 
     public goBack(): void {
+        this.stopAutoAdvance();
+
         this.store.dispatch(FlashCardsActions.clearWordList());
 
         this.router.navigateByUrl('/settings');
@@ -101,7 +140,7 @@ export default class FlashCardsService {
             allWords = allWords.concat(Object.keys(wordsOfType));
         });
 
-        allWords = shuffle(allWords);
+        allWords = shuffle(allWords).slice(0, this.numberOfCards);
         allWords.forEach((word: string) => {
             promises.push(this.databaseService.lookUpWordInDictionary(word, this.selectedLanguage));
         });
@@ -114,5 +153,24 @@ export default class FlashCardsService {
                 // @TODO figure out what to do here
                 console.log(err);
             });
+    }
+
+    private setUpAutoAdvance(currentCardIsRevealed: boolean): void {
+        if (this.autoAdvanceSpeed > 0) {
+            this.stopAutoAdvance();
+            this.autoAdvancer = setTimeout(() => {
+                if (currentCardIsRevealed) {
+                    this.advanceFlashCard();
+                } else {
+                    this.revealFlashCard();
+                }
+            }, this.autoAdvanceSpeed * 1000);
+        }
+    }
+
+    private stopAutoAdvance(): void {
+        if (this.autoAdvancer) {
+            clearTimeout(this.autoAdvancer);
+        }
     }
 }

@@ -45,6 +45,17 @@ const flashCardsReducer: ActionReducer<IFlashCardsState> = (state: IFlashCardsSt
                 wordList: [],
             });
 
+        case ActionTypes.NUMBER_OF_CARDS_CHANGED:
+            return Object.assign({}, state, {
+                numberOfCards: action.payload,
+            });
+
+        case ActionTypes.AUTO_ADVANCE_SPEED_CHANGED:
+            console.log('AUTO_ADVANCE_SPEED_CHANGED', action.payload);
+            return Object.assign({}, state, {
+                autoAdvanceSpeed: action.payload,
+            });
+
         case ActionTypes.WORD_LIST_LOADED:
             return Object.assign({}, state, {
                 isLoading: false,

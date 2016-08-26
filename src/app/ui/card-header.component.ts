@@ -40,7 +40,7 @@ export default class CardHeaderComponent implements OnInit, OnChanges {
         this.styleSheet = StyleSheet.create({
             container: {
                 flex: 1,
-                height: 150,
+                height: 120,
                 backgroundColor: this.backgroundColor,
                 borderStyle: 'solid',
                 borderBottomColor: 'rgba(0, 0, 0, 0.1)',
