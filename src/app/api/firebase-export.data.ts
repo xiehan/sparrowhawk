@@ -1599,7 +1599,7 @@ const database = {
             '목요일': {
                 'definition': 'Thursday',
                 'display': '목요일',
-                'hanja': '목요일',
+                'hanja': '木曜日',
                 'level': 1,
                 'type': 'noun',
             },

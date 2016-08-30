@@ -45,7 +45,7 @@ import CardComponent, { ICardAction } from '../ui/card.component';
     <Text [style]="{ paddingTop: 8 }" *ngIf="currentWord.regular === false">
         {{ currentWord.irregularType }} (irregular {{currentWord.type}})
     </Text>
-    <Text [style]="{ paddingTop: 16 }" *ngIf="currentWord.hanja && !currentWord.commonConjugation">
+    <Text [style]="{ paddingTop: 16 }" *ngIf="!!currentWord.commonConjugation && currentWord.hanja">
         Hanja: {{ currentWord.hanja }}
     </Text>
 </ui-card>
