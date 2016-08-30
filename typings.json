@@ -4,8 +4,5 @@
     "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#dd638012d63e069f2c99d06ef4dcc9616a943ee4",
     "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#20e1eb9616922d382d918cc5a21870a9dbe255f5",
     "react-native": "github:DefinitelyTyped/DefinitelyTyped/react-native/react-native.d.ts#52270b07349ce82b720c9e79a0dfb992dc89c1d8"
-  },
-  "dependencies": {
-    "react": "registry:npm/react#15.0.1+20160601175240"
   }
 }

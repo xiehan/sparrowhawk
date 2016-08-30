@@ -48,8 +48,7 @@
     "@ngrx/store": "^2.1.2",
     "angular2-react-native": "0.0.1-alpha.15",
     "firebase": "3.2.1",
-    "react": "~15.2.1",
-    "react-native-material-kit": "^0.3.2"
+    "react": "~15.2.1"
   },
   "devDependencies": {
     "codelyzer": "0.0.28",
