@@ -1,6 +1,0 @@
-{
-    "FIREBASE_API_KEY": "xxxxxxxxxxxx",
-    "FIREBASE_AUTH_DOMAIN": "xxxxxx.firebaseapp.com",
-    "FIREBASE_DATABASE_URL": "https://xxxxxx.firebaseio.com",
-    "FIREBASE_STORAGE_BUCKET": "xxxxxx.appspot.com"
-}

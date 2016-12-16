@@ -78,8 +78,13 @@ jspm_packages
 .node_repl_history
 
 
-## Don't commit built files
-dist/
+# Don't commit platform builds or TNS internals
+hooks/
+lib/
+platforms/
 
-config.json
+# Don't commit compiled JS files
+app/**/*.js
+app/**/*.js.map
+
 data/combined.json

@@ -1,6 +1,6 @@
 {
   "name": "sparrowhawk",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An Angular2 native mobile app to help you practice Korean, flashcard-style, on the go",
   "keywords": [
     "korean",
@@ -22,62 +22,66 @@
   "bugs": {
     "url": "https://github.com/xiehan/sparrowhawk/issues"
   },
-  "main": "src/app/index.ts",
+  "main": "app/main.ts",
   "scripts": {
     "postinstall": "typings install",
     "update": "npm prune && npm cache clean && npm install",
-    "init": "gulp init",
-    "lint": "tslint 'src/**/*.ts'",
+    "init": "tns install",
+    "lint": "tslint 'app/**/*.ts'",
     "start": "npm run start:ios",
-    "start:ios": "gulp start.ios",
-    "start:android": "gulp start.android",
-    "test": "gulp test.browser/ci",
-    "tdd": "gulp test.browser",
-    "pree2e": "npm run webdriver:update -- --standalone",
-    "e2e": "protractor",
-    "e2e:ios": "npm run e2e -- test/protractor.conf.ios.dev.js",
-    "e2e:ios:ci": "npm run e2e -- test/protractor.conf.ios.ci.js",
-    "e2e:android": "npm run e2e -- test/protractor.conf.android.dev.js",
-    "e2e:android:ci": "npm run e2e -- test/protractor.conf.android.ci.js",
-    "webdriver:update": "webdriver-manager update",
-    "webdriver:start": "webdriver-manager start"
+    "start:ios": "tns run ios --emulator",
+    "start:android": "tns run android --emulator",
+    "watch": "npm run watch:ios",
+    "watch:ios": "tns livesync ios --emulator --watch",
+    "watch:android": "tns livesync android --emulator --watch",
+    "debug": "npm run debug:ios",
+    "debug:ios": "tns debug ios --emulator",
+    "debug:android": "tns debug android --emulator"
   },
   "dependencies": {
-    "@angular/router-deprecated": "^2.0.0-rc.2",
-    "@ngrx/core": "^1.0.2",
-    "@ngrx/store": "^2.1.2",
-    "angular2-react-native": "0.0.1-alpha.15",
-    "firebase": "3.2.1",
-    "react": "~15.2.1"
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/router": "3.2.1",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/store": "^2.2.1",
+    "nativescript-angular": "1.2.0",
+    "nativescript-cardview": "^1.2.1",
+    "nativescript-plugin-firebase": "^3.8.4",
+    "nativescript-theme-core": "^0.2.1",
+    "reflect-metadata": "~0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "tns-core-modules": "2.4.2"
   },
   "devDependencies": {
-    "codelyzer": "0.0.28",
-    "del": "^1.2.0",
-    "gulp": "^3.9.0",
-    "gulp-env": "^0.4.0",
-    "gulp-filter": "^3.0.1",
-    "gulp-preprocess": "^2.0.0",
-    "gulp-strip-comments": "^2.2.1",
-    "gulp-typescript": "^2.11.0",
-    "gulp-watch": "~4.3.5",
-    "jasmine": "2.4.1",
-    "karma": "^0.13.21",
-    "karma-chrome-launcher": "^0.2.2",
-    "karma-jasmine": "^0.3.6",
-    "karma-nyan-reporter": "^0.2.4",
-    "protractor": "^3.3.0",
-    "run-sequence": "~1.1.2",
-    "systemjs": "^0.19.25",
-    "through2": "~0.6.3",
-    "tslint": "^3.14.0",
-    "tslint-eslint-rules": "^1.3.0",
-    "typescript": "^1.8.10",
-    "wd": "^0.4.0",
-    "wd-bridge": "^0.0.2"
+    "babel-traverse": "6.20.0",
+    "babel-types": "6.20.0",
+    "babylon": "6.14.1",
+    "lazy": "1.0.11",
+    "nativescript-dev-android-snapshot": "^0.*.*",
+    "nativescript-dev-sass": "^0.4.1",
+    "nativescript-dev-typescript": "^0.3.2",
+    "tslint": "^4.0.2",
+    "tslint-eslint-rules": "^3.2.0",
+    "typescript": "~2.0.10",
+    "zone.js": "~0.6.21"
   },
   "engines": {
     "node": ">= 4.1",
     "npm": ">= 2.14.3"
+  },
+  "nativescript": {
+    "id": "org.nativescript.sparrowhawk",
+    "tns-ios": {
+      "version": "2.4.0"
+    },
+    "tns-android": {
+      "version": "2.4.1"
+    }
   },
   "private": true
 }
