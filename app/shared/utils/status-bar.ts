@@ -38,7 +38,9 @@ export default function setStatusBarColors() {
             if (application.android && platform.device.sdkVersion >= '21') {
                 let View = android.view.View;
                 let window = application.android.startActivity.getWindow();
-                window.setStatusBarColor(new Color(COLOR_PALETTE['dark-primary-color']).android);
+                // set the status bar to Color.Transparent
+                window.setStatusBarColor(0x000000);
+                window.setNavigationBarColor(new Color(COLOR_PALETTE['dark-primary-color']).android);
 
                 let decorView = window.getDecorView();
                 decorView.setSystemUiVisibility(

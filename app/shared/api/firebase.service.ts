@@ -15,6 +15,8 @@ const noop = () => {};
  * into an API that is much less likely to change in the future.
  */
 export default class FirebaseService {
+    private keptInSync = [];
+
     /**
      * Checks to see if the data with the given key exists.
      *
@@ -70,10 +72,16 @@ export default class FirebaseService {
      * @returns {Promise<boolean>}
      */
     public synchronizeData(key: string, turnOn = true): Promise<boolean> {
+        if (this.keptInSync.indexOf(key) > -1) {
+            console.log('Firebase database at key', key, 'is already in sync');
+            return Promise.resolve(true);
+        }
+
         console.log('Calling keepInSync() on Firebase database at key', key);
 
         return firebase.keepInSync(key, turnOn).then(() => {
                 console.log('firebase.keepInSync is ON for', key);
+                this.keptInSync.push(key);
                 return true;
             }, (error: any) => {
                 console.log('firebase.keepInSync error:', error);

@@ -74,12 +74,16 @@ export default class SettingsService {
 
     private getAvailableWordTypes(): void {
         if (this.selectedLanguage) {
-            this.databaseService.getAvailableWordTypesForLanguage(this.selectedLanguage)
-                .then((results: any) => {
-                    this.store.dispatch(SettingsActions.setWordTypesLoaded(results));
-                }).catch((err: any) => {
-                    // @TODO figure out what to do here
-                    console.log(err);
+            this.databaseService
+                .downloadDictionaryForLanguage(this.selectedLanguage)
+                .then(() => {
+                    this.databaseService.getAvailableWordTypesForLanguage(this.selectedLanguage)
+                        .then((results: any) => {
+                            this.store.dispatch(SettingsActions.setWordTypesLoaded(results));
+                        }).catch((err: any) => {
+                        // @TODO figure out what to do here
+                        console.log(err);
+                    });
                 });
         }
     }

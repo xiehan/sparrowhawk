@@ -16,9 +16,9 @@ import ISettingsState from './settings.state';
 <ActionBar color="black"
            [backgroundColor]="actionBarColor"
            [title]="selectedLanguage$ | async">
-    <NavigationButton text="Back" (tap)="goBack()"></NavigationButton>
-    <ActionItem ios.position="right" (tap)="start()">
-        <Label text="Start" 
+    <NavigationButton android.systemIcon="ic_menu_back" text="Back" (tap)="goBack()"></NavigationButton>
+    <ActionItem ios.position="right" android.position="actionBar" (tap)="start()">
+        <Label text="Start" class="action-bar-right-btn"
                [color]="(atLeastOneWordTypeSelected$ | async) ? 'black' : actionBarDisabledTextColor">
         </Label>
     </ActionItem>
@@ -26,7 +26,7 @@ import ISettingsState from './settings.state';
 <TabView>
     <StackLayout class="p-20" *tabItem="{title: 'Pick Words'}">
         <Label class="label" text="Include:"></Label>
-        <FlexboxLayout flexDirection="row" alignContent="center" alignItems="stretch" justifyContent="space-between" 
+        <FlexboxLayout flexDirection="row" alignContent="center" alignItems="center" justifyContent="space-between" 
                        *ngFor="let wordType of (availableWordTypes$ | async)">
             <Label class="body" [text]="wordType.nativeLabel + ' ' + wordType.settingsLabel"></Label>
             <Switch class="switch"

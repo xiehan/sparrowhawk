@@ -15,7 +15,7 @@ import IFlashCardsState from './flashcards.state';
 <ActionBar color="black"
            [backgroundColor]="actionBarColor"
            [title]="selectedLanguage$ | async">
-    <NavigationButton text="Back" (tap)="goBack()"></NavigationButton>
+    <NavigationButton android.systemIcon="ic_menu_back" text="Back" (tap)="goBack()"></NavigationButton>
 </ActionBar>
 <FlexboxLayout flexDirection="column" alignItems="stretch" alignContent="center" justifyContent="center"
                class="p-20" [backgroundColor]="backgroundColor">

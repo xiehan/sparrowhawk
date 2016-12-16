@@ -30,13 +30,13 @@
     "lint": "tslint 'app/**/*.ts'",
     "start": "npm run start:ios",
     "start:ios": "tns run ios --emulator",
-    "start:android": "tns run android --emulator",
+    "start:android": "tns run android",
     "watch": "npm run watch:ios",
     "watch:ios": "tns livesync ios --emulator --watch",
-    "watch:android": "tns livesync android --emulator --watch",
+    "watch:android": "tns livesync android --watch",
     "debug": "npm run debug:ios",
     "debug:ios": "tns debug ios --emulator",
-    "debug:android": "tns debug android --emulator"
+    "debug:android": "tns debug android"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
@@ -61,6 +61,7 @@
     "babel-traverse": "6.20.0",
     "babel-types": "6.20.0",
     "babylon": "6.14.1",
+    "codelyzer": "0.0.28",
     "lazy": "1.0.11",
     "nativescript-dev-android-snapshot": "^0.*.*",
     "nativescript-dev-sass": "^0.4.1",
